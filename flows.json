@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "id": "e6253a193720b096",
+        "type": "tab",
+        "label": "Test flow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    }
+]
