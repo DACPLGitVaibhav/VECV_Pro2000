@@ -1,0 +1,12 @@
+{
+    "name": "VECV_Pro2000",
+    "description": "IOT Project For VECV pro2000",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
