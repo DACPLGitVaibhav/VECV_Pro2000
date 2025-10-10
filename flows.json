@@ -1,21 +1,5 @@
 [
     {
-        "id": "e6253a193720b096",
-        "type": "tab",
-        "label": "Test flow",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "928a659e27e15d3b",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "4130cccc0fa67e06",
         "type": "tab",
         "label": "Flow_Alarm_ML_10_New",
@@ -56,25 +40,9 @@
         "env": []
     },
     {
-        "id": "d2f524c7386c779e",
-        "type": "tab",
-        "label": "cycle_Time",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "1a84d6e3645699d7",
         "type": "tab",
         "label": "Flow_Current_Torque_Temp",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "77b8f05fc0c712f8",
-        "type": "tab",
-        "label": "HP_Insert_Update",
         "disabled": true,
         "info": "",
         "env": []
@@ -91,7 +59,7 @@
         "id": "502c7cc05ab695d2",
         "type": "tab",
         "label": "PLC_Status",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -102,13 +70,6 @@
         "disabled": true,
         "info": "",
         "env": []
-    },
-    {
-        "id": "a1e07c2d53e4c8ee",
-        "type": "tab",
-        "label": "Shift_Production_Insert",
-        "disabled": true,
-        "info": ""
     },
     {
         "id": "69c80b9824af6584",
@@ -135,1370 +96,36 @@
         "env": []
     },
     {
-        "id": "ce66f7ece50d94dd",
-        "type": "s7 endpoint",
-        "z": "928a659e27e15d3b",
-        "transport": "iso-on-tcp",
-        "address": "172.168.99.155",
-        "port": "102",
-        "rack": "0",
-        "slot": "1",
-        "localtsaphi": "01",
-        "localtsaplo": "00",
-        "remotetsaphi": "01",
-        "remotetsaplo": "00",
-        "connmode": "rack-slot",
-        "adapter": "",
-        "busaddr": 2,
-        "cycletime": "500",
-        "timeout": 2000,
-        "name": "Main_PLC",
-        "vartable": [
-            {
-                "addr": "DB471,I2",
-                "name": "01_Curr_Axis1"
-            },
-            {
-                "addr": "DB471,I4",
-                "name": "01_Curr_Axis2"
-            },
-            {
-                "addr": "DB471,I6",
-                "name": "01_Curr_Axis3"
-            },
-            {
-                "addr": "DB471,I8",
-                "name": "01_Curr_Axis4"
-            },
-            {
-                "addr": "DB471,I10",
-                "name": "01_Curr_Axis5"
-            },
-            {
-                "addr": "DB471,I12",
-                "name": "01_Curr_Axis6"
-            },
-            {
-                "addr": "DB471,I14",
-                "name": "01_Curr_Axis7"
-            },
-            {
-                "addr": "DB471,I16",
-                "name": "01_Curr_Axis8"
-            },
-            {
-                "addr": "DB471,I18",
-                "name": "01_Torq_Axis1"
-            },
-            {
-                "addr": "DB471,I20",
-                "name": "01_Torq_Axis2"
-            },
-            {
-                "addr": "DB471,I22",
-                "name": "01_Torq_Axis3"
-            },
-            {
-                "addr": "DB471,I24",
-                "name": "01_Torq_Axis4"
-            },
-            {
-                "addr": "DB471,I26",
-                "name": "01_Torq_Axis5"
-            },
-            {
-                "addr": "DB471,I28",
-                "name": "01_Torq_Axis6"
-            },
-            {
-                "addr": "DB471,I30",
-                "name": "01_Torq_Axis7"
-            },
-            {
-                "addr": "DB471,I32",
-                "name": "01_Torq_Axis8"
-            },
-            {
-                "addr": "DB471,B34",
-                "name": "01_Temp_Axis1"
-            },
-            {
-                "addr": "DB471,B35",
-                "name": "01_Temp_Axis2"
-            },
-            {
-                "addr": "DB471,B36",
-                "name": "01_Temp_Axis3"
-            },
-            {
-                "addr": "DB471,B37",
-                "name": "01_Temp_Axis4"
-            },
-            {
-                "addr": "DB471,B38",
-                "name": "01_Temp_Axis5"
-            },
-            {
-                "addr": "DB471,B39",
-                "name": "01_Temp_Axis6"
-            },
-            {
-                "addr": "DB471,B40",
-                "name": "01_Temp_Axis7"
-            },
-            {
-                "addr": "DB471,B41",
-                "name": "01_Temp_Axis8"
-            },
-            {
-                "addr": "DB472,I2",
-                "name": "02_Curr_Axis1"
-            },
-            {
-                "addr": "DB472,I4",
-                "name": "02_Curr_Axis2"
-            },
-            {
-                "addr": "DB472,I6",
-                "name": "02_Curr_Axis3"
-            },
-            {
-                "addr": "DB472,I8",
-                "name": "02_Curr_Axis4"
-            },
-            {
-                "addr": "DB472,I10",
-                "name": "02_Curr_Axis5"
-            },
-            {
-                "addr": "DB472,I12",
-                "name": "02_Curr_Axis6"
-            },
-            {
-                "addr": "DB472,I14",
-                "name": "02_Curr_Axis7"
-            },
-            {
-                "addr": "DB472,I16",
-                "name": "02_Curr_Axis8"
-            },
-            {
-                "addr": "DB472,I18",
-                "name": "02_Torq_Axis1"
-            },
-            {
-                "addr": "DB472,I20",
-                "name": "02_Torq_Axis2"
-            },
-            {
-                "addr": "DB472,I22",
-                "name": "02_Torq_Axis3"
-            },
-            {
-                "addr": "DB472,I24",
-                "name": "02_Torq_Axis4"
-            },
-            {
-                "addr": "DB472,I26",
-                "name": "02_Torq_Axis5"
-            },
-            {
-                "addr": "DB472,I28",
-                "name": "02_Torq_Axis6"
-            },
-            {
-                "addr": "DB472,I30",
-                "name": "02_Torq_Axis7"
-            },
-            {
-                "addr": "DB472,I32",
-                "name": "02_Torq_Axis8"
-            },
-            {
-                "addr": "DB472,B34",
-                "name": "02_Temp_Axis1"
-            },
-            {
-                "addr": "DB472,B35",
-                "name": "02_Temp_Axis2"
-            },
-            {
-                "addr": "DB472,B36",
-                "name": "02_Temp_Axis3"
-            },
-            {
-                "addr": "DB472,B37",
-                "name": "02_Temp_Axis4"
-            },
-            {
-                "addr": "DB472,B38",
-                "name": "02_Temp_Axis5"
-            },
-            {
-                "addr": "DB472,B39",
-                "name": "02_Temp_Axis6"
-            },
-            {
-                "addr": "DB472,B40",
-                "name": "02_Temp_Axis7"
-            },
-            {
-                "addr": "DB472,B41",
-                "name": "02_Temp_Axis8"
-            },
-            {
-                "addr": "DB473,I2",
-                "name": "03_Curr_Axis1"
-            },
-            {
-                "addr": "DB473,I4",
-                "name": "03_Curr_Axis2"
-            },
-            {
-                "addr": "DB473,I6",
-                "name": "03_Curr_Axis3"
-            },
-            {
-                "addr": "DB473,I8",
-                "name": "03_Curr_Axis4"
-            },
-            {
-                "addr": "DB473,I10",
-                "name": "03_Curr_Axis5"
-            },
-            {
-                "addr": "DB473,I12",
-                "name": "03_Curr_Axis6"
-            },
-            {
-                "addr": "DB473,I14",
-                "name": "03_Curr_Axis7"
-            },
-            {
-                "addr": "DB473,I16",
-                "name": "03_Curr_Axis8"
-            },
-            {
-                "addr": "DB473,I18",
-                "name": "03_Torq_Axis1"
-            },
-            {
-                "addr": "DB473,I20",
-                "name": "03_Torq_Axis2"
-            },
-            {
-                "addr": "DB473,I22",
-                "name": "03_Torq_Axis3"
-            },
-            {
-                "addr": "DB473,I24",
-                "name": "03_Torq_Axis4"
-            },
-            {
-                "addr": "DB473,I26",
-                "name": "03_Torq_Axis5"
-            },
-            {
-                "addr": "DB473,I28",
-                "name": "03_Torq_Axis6"
-            },
-            {
-                "addr": "DB473,I30",
-                "name": "03_Torq_Axis7"
-            },
-            {
-                "addr": "DB473,I32",
-                "name": "03_Torq_Axis8"
-            },
-            {
-                "addr": "DB473,B34",
-                "name": "03_Temp_Axis1"
-            },
-            {
-                "addr": "DB473,B35",
-                "name": "03_Temp_Axis2"
-            },
-            {
-                "addr": "DB473,B36",
-                "name": "03_Temp_Axis3"
-            },
-            {
-                "addr": "DB473,B37",
-                "name": "03_Temp_Axis4"
-            },
-            {
-                "addr": "DB473,B38",
-                "name": "03_Temp_Axis5"
-            },
-            {
-                "addr": "DB473,B39",
-                "name": "03_Temp_Axis6"
-            },
-            {
-                "addr": "DB473,B40",
-                "name": "03_Temp_Axis7"
-            },
-            {
-                "addr": "DB473,B41",
-                "name": "03_Temp_Axis8"
-            },
-            {
-                "addr": "DB470,I2",
-                "name": "04_Curr_Axis1"
-            },
-            {
-                "addr": "DB470,I4",
-                "name": "04_Curr_Axis2"
-            },
-            {
-                "addr": "DB470,I6",
-                "name": "04_Curr_Axis3"
-            },
-            {
-                "addr": "DB470,I8",
-                "name": "04_Curr_Axis4"
-            },
-            {
-                "addr": "DB470,I10",
-                "name": "04_Curr_Axis5"
-            },
-            {
-                "addr": "DB470,I12",
-                "name": "04_Curr_Axis6"
-            },
-            {
-                "addr": "DB470,I14",
-                "name": "04_Curr_Axis7"
-            },
-            {
-                "addr": "DB470,I16",
-                "name": "04_Curr_Axis8"
-            },
-            {
-                "addr": "DB470,I18",
-                "name": "04_Torq_Axis1"
-            },
-            {
-                "addr": "DB470,I20",
-                "name": "04_Torq_Axis2"
-            },
-            {
-                "addr": "DB470,I22",
-                "name": "04_Torq_Axis3"
-            },
-            {
-                "addr": "DB470,I24",
-                "name": "04_Torq_Axis4"
-            },
-            {
-                "addr": "DB470,I26",
-                "name": "04_Torq_Axis5"
-            },
-            {
-                "addr": "DB470,I28",
-                "name": "04_Torq_Axis6"
-            },
-            {
-                "addr": "DB470,I30",
-                "name": "04_Torq_Axis7"
-            },
-            {
-                "addr": "DB470,I32",
-                "name": "04_Torq_Axis8"
-            },
-            {
-                "addr": "DB470,B34",
-                "name": "04_Temp_Axis1"
-            },
-            {
-                "addr": "DB470,B35",
-                "name": "04_Temp_Axis2"
-            },
-            {
-                "addr": "DB470,B36",
-                "name": "04_Temp_Axis3"
-            },
-            {
-                "addr": "DB470,B37",
-                "name": "04_Temp_Axis4"
-            },
-            {
-                "addr": "DB470,B38",
-                "name": "04_Temp_Axis5"
-            },
-            {
-                "addr": "DB470,B39",
-                "name": "04_Temp_Axis6"
-            },
-            {
-                "addr": "DB470,B40",
-                "name": "04_Temp_Axis7"
-            },
-            {
-                "addr": "DB470,B41",
-                "name": "04_Temp_Axis8"
-            },
-            {
-                "addr": "DB480,I2",
-                "name": "05_Curr_Axis1"
-            },
-            {
-                "addr": "DB480,I4",
-                "name": "05_Curr_Axis2"
-            },
-            {
-                "addr": "DB480,I6",
-                "name": "05_Curr_Axis3"
-            },
-            {
-                "addr": "DB480,I8",
-                "name": "05_Curr_Axis4"
-            },
-            {
-                "addr": "DB480,I10",
-                "name": "05_Curr_Axis5"
-            },
-            {
-                "addr": "DB480,I12",
-                "name": "05_Curr_Axis6"
-            },
-            {
-                "addr": "DB480,I14",
-                "name": "05_Curr_Axis7"
-            },
-            {
-                "addr": "DB480,I16",
-                "name": "05_Curr_Axis8"
-            },
-            {
-                "addr": "DB480,I18",
-                "name": "05_Torq_Axis1"
-            },
-            {
-                "addr": "DB480,I20",
-                "name": "05_Torq_Axis2"
-            },
-            {
-                "addr": "DB480,I22",
-                "name": "05_Torq_Axis3"
-            },
-            {
-                "addr": "DB480,I24",
-                "name": "05_Torq_Axis4"
-            },
-            {
-                "addr": "DB480,I26",
-                "name": "05_Torq_Axis5"
-            },
-            {
-                "addr": "DB480,I28",
-                "name": "05_Torq_Axis6"
-            },
-            {
-                "addr": "DB480,I30",
-                "name": "05_Torq_Axis7"
-            },
-            {
-                "addr": "DB480,I32",
-                "name": "05_Torq_Axis8"
-            },
-            {
-                "addr": "DB480,B34",
-                "name": "05_Temp_Axis1"
-            },
-            {
-                "addr": "DB480,B35",
-                "name": "05_Temp_Axis2"
-            },
-            {
-                "addr": "DB480,B36",
-                "name": "05_Temp_Axis3"
-            },
-            {
-                "addr": "DB480,B37",
-                "name": "05_Temp_Axis4"
-            },
-            {
-                "addr": "DB480,B38",
-                "name": "05_Temp_Axis5"
-            },
-            {
-                "addr": "DB480,B39",
-                "name": "05_Temp_Axis6"
-            },
-            {
-                "addr": "DB480,B40",
-                "name": "05_Temp_Axis7"
-            },
-            {
-                "addr": "DB480,B41",
-                "name": "05_Temp_Axis8"
-            },
-            {
-                "addr": "DB484,I2",
-                "name": "06_Curr_Axis1"
-            },
-            {
-                "addr": "DB484,I4",
-                "name": "06_Curr_Axis2"
-            },
-            {
-                "addr": "DB484,I6",
-                "name": "06_Curr_Axis3"
-            },
-            {
-                "addr": "DB484,I8",
-                "name": "06_Curr_Axis4"
-            },
-            {
-                "addr": "DB484,I10",
-                "name": "06_Curr_Axis5"
-            },
-            {
-                "addr": "DB484,I12",
-                "name": "06_Curr_Axis6"
-            },
-            {
-                "addr": "DB484,I14",
-                "name": "06_Curr_Axis7"
-            },
-            {
-                "addr": "DB484,I16",
-                "name": "06_Curr_Axis8"
-            },
-            {
-                "addr": "DB484,I18",
-                "name": "06_Torq_Axis1"
-            },
-            {
-                "addr": "DB484,I20",
-                "name": "06_Torq_Axis2"
-            },
-            {
-                "addr": "DB484,I22",
-                "name": "06_Torq_Axis3"
-            },
-            {
-                "addr": "DB484,I24",
-                "name": "06_Torq_Axis4"
-            },
-            {
-                "addr": "DB484,I26",
-                "name": "06_Torq_Axis5"
-            },
-            {
-                "addr": "DB484,I28",
-                "name": "06_Torq_Axis6"
-            },
-            {
-                "addr": "DB484,I30",
-                "name": "06_Torq_Axis7"
-            },
-            {
-                "addr": "DB484,I32",
-                "name": "06_Torq_Axis8"
-            },
-            {
-                "addr": "DB484,B34",
-                "name": "06_Temp_Axis1"
-            },
-            {
-                "addr": "DB484,B35",
-                "name": "06_Temp_Axis2"
-            },
-            {
-                "addr": "DB484,B36",
-                "name": "06_Temp_Axis3"
-            },
-            {
-                "addr": "DB484,B37",
-                "name": "06_Temp_Axis4"
-            },
-            {
-                "addr": "DB484,B38",
-                "name": "06_Temp_Axis5"
-            },
-            {
-                "addr": "DB484,B39",
-                "name": "06_Temp_Axis6"
-            },
-            {
-                "addr": "DB484,B40",
-                "name": "06_Temp_Axis7"
-            },
-            {
-                "addr": "DB484,B41",
-                "name": "06_Temp_Axis8"
-            },
-            {
-                "addr": "DB489,I2",
-                "name": "07_Curr_Axis1"
-            },
-            {
-                "addr": "DB489,I4",
-                "name": "07_Curr_Axis2"
-            },
-            {
-                "addr": "DB489,I6",
-                "name": "07_Curr_Axis3"
-            },
-            {
-                "addr": "DB489,I8",
-                "name": "07_Curr_Axis4"
-            },
-            {
-                "addr": "DB489,I10",
-                "name": "07_Curr_Axis5"
-            },
-            {
-                "addr": "DB489,I12",
-                "name": "07_Curr_Axis6"
-            },
-            {
-                "addr": "DB489,I14",
-                "name": "07_Curr_Axis7"
-            },
-            {
-                "addr": "DB489,I16",
-                "name": "07_Curr_Axis8"
-            },
-            {
-                "addr": "DB489,I18",
-                "name": "07_Torq_Axis1"
-            },
-            {
-                "addr": "DB489,I20",
-                "name": "07_Torq_Axis2"
-            },
-            {
-                "addr": "DB489,I22",
-                "name": "07_Torq_Axis3"
-            },
-            {
-                "addr": "DB489,I24",
-                "name": "07_Torq_Axis4"
-            },
-            {
-                "addr": "DB489,I26",
-                "name": "07_Torq_Axis5"
-            },
-            {
-                "addr": "DB489,I28",
-                "name": "07_Torq_Axis6"
-            },
-            {
-                "addr": "DB489,I30",
-                "name": "07_Torq_Axis7"
-            },
-            {
-                "addr": "DB489,I32",
-                "name": "07_Torq_Axis8"
-            },
-            {
-                "addr": "DB489,B34",
-                "name": "07_Temp_Axis1"
-            },
-            {
-                "addr": "DB489,B35",
-                "name": "07_Temp_Axis2"
-            },
-            {
-                "addr": "DB489,B36",
-                "name": "07_Temp_Axis3"
-            },
-            {
-                "addr": "DB489,B37",
-                "name": "07_Temp_Axis4"
-            },
-            {
-                "addr": "DB489,B38",
-                "name": "07_Temp_Axis5"
-            },
-            {
-                "addr": "DB489,B39",
-                "name": "07_Temp_Axis6"
-            },
-            {
-                "addr": "DB489,B40",
-                "name": "07_Temp_Axis7"
-            },
-            {
-                "addr": "DB489,B41",
-                "name": "07_Temp_Axis8"
-            },
-            {
-                "addr": "DB490,I2",
-                "name": "08_Curr_Axis1"
-            },
-            {
-                "addr": "DB490,I4",
-                "name": "08_Curr_Axis2"
-            },
-            {
-                "addr": "DB490,I6",
-                "name": "08_Curr_Axis3"
-            },
-            {
-                "addr": "DB490,I8",
-                "name": "08_Curr_Axis4"
-            },
-            {
-                "addr": "DB490,I10",
-                "name": "08_Curr_Axis5"
-            },
-            {
-                "addr": "DB490,I12",
-                "name": "08_Curr_Axis6"
-            },
-            {
-                "addr": "DB490,I14",
-                "name": "08_Curr_Axis7"
-            },
-            {
-                "addr": "DB490,I16",
-                "name": "08_Curr_Axis8"
-            },
-            {
-                "addr": "DB490,I18",
-                "name": "08_Torq_Axis1"
-            },
-            {
-                "addr": "DB490,I20",
-                "name": "08_Torq_Axis2"
-            },
-            {
-                "addr": "DB490,I22",
-                "name": "08_Torq_Axis3"
-            },
-            {
-                "addr": "DB490,I24",
-                "name": "08_Torq_Axis4"
-            },
-            {
-                "addr": "DB490,I26",
-                "name": "08_Torq_Axis5"
-            },
-            {
-                "addr": "DB490,I28",
-                "name": "08_Torq_Axis6"
-            },
-            {
-                "addr": "DB490,I30",
-                "name": "08_Torq_Axis7"
-            },
-            {
-                "addr": "DB490,I32",
-                "name": "08_Torq_Axis8"
-            },
-            {
-                "addr": "DB490,B34",
-                "name": "08_Temp_Axis1"
-            },
-            {
-                "addr": "DB490,B35",
-                "name": "08_Temp_Axis2"
-            },
-            {
-                "addr": "DB490,B36",
-                "name": "08_Temp_Axis3"
-            },
-            {
-                "addr": "DB490,B37",
-                "name": "08_Temp_Axis4"
-            },
-            {
-                "addr": "DB490,B38",
-                "name": "08_Temp_Axis5"
-            },
-            {
-                "addr": "DB490,B39",
-                "name": "08_Temp_Axis6"
-            },
-            {
-                "addr": "DB490,B40",
-                "name": "08_Temp_Axis7"
-            },
-            {
-                "addr": "DB490,B41",
-                "name": "08_Temp_Axis8"
-            },
-            {
-                "addr": "DB491,I2",
-                "name": "09_Curr_Axis1"
-            },
-            {
-                "addr": "DB491,I4",
-                "name": "09_Curr_Axis2"
-            },
-            {
-                "addr": "DB491,I6",
-                "name": "09_Curr_Axis3"
-            },
-            {
-                "addr": "DB491,I8",
-                "name": "09_Curr_Axis4"
-            },
-            {
-                "addr": "DB491,I10",
-                "name": "09_Curr_Axis5"
-            },
-            {
-                "addr": "DB491,I12",
-                "name": "09_Curr_Axis6"
-            },
-            {
-                "addr": "DB491,I14",
-                "name": "09_Curr_Axis7"
-            },
-            {
-                "addr": "DB491,I16",
-                "name": "09_Curr_Axis8"
-            },
-            {
-                "addr": "DB491,I18",
-                "name": "09_Torq_Axis1"
-            },
-            {
-                "addr": "DB491,I20",
-                "name": "09_Torq_Axis2"
-            },
-            {
-                "addr": "DB491,I22",
-                "name": "09_Torq_Axis3"
-            },
-            {
-                "addr": "DB491,I24",
-                "name": "09_Torq_Axis4"
-            },
-            {
-                "addr": "DB491,I26",
-                "name": "09_Torq_Axis5"
-            },
-            {
-                "addr": "DB491,I28",
-                "name": "09_Torq_Axis6"
-            },
-            {
-                "addr": "DB491,I30",
-                "name": "09_Torq_Axis7"
-            },
-            {
-                "addr": "DB491,I32",
-                "name": "09_Torq_Axis8"
-            },
-            {
-                "addr": "DB491,B34",
-                "name": "09_Temp_Axis1"
-            },
-            {
-                "addr": "DB491,B35",
-                "name": "09_Temp_Axis2"
-            },
-            {
-                "addr": "DB491,B36",
-                "name": "09_Temp_Axis3"
-            },
-            {
-                "addr": "DB491,B37",
-                "name": "09_Temp_Axis4"
-            },
-            {
-                "addr": "DB491,B38",
-                "name": "09_Temp_Axis5"
-            },
-            {
-                "addr": "DB491,B39",
-                "name": "09_Temp_Axis6"
-            },
-            {
-                "addr": "DB491,B40",
-                "name": "09_Temp_Axis7"
-            },
-            {
-                "addr": "DB491,B41",
-                "name": "09_Temp_Axis8"
-            },
-            {
-                "addr": "DB492,I2",
-                "name": "10_Curr_Axis1"
-            },
-            {
-                "addr": "DB492,I4",
-                "name": "10_Curr_Axis2"
-            },
-            {
-                "addr": "DB492,I6",
-                "name": "10_Curr_Axis3"
-            },
-            {
-                "addr": "DB492,I8",
-                "name": "10_Curr_Axis4"
-            },
-            {
-                "addr": "DB492,I10",
-                "name": "10_Curr_Axis5"
-            },
-            {
-                "addr": "DB492,I12",
-                "name": "10_Curr_Axis6"
-            },
-            {
-                "addr": "DB492,I14",
-                "name": "10_Curr_Axis7"
-            },
-            {
-                "addr": "DB492,I16",
-                "name": "10_Curr_Axis8"
-            },
-            {
-                "addr": "DB492,I18",
-                "name": "10_Torq_Axis1"
-            },
-            {
-                "addr": "DB492,I20",
-                "name": "10_Torq_Axis2"
-            },
-            {
-                "addr": "DB492,I22",
-                "name": "10_Torq_Axis3"
-            },
-            {
-                "addr": "DB492,I24",
-                "name": "10_Torq_Axis4"
-            },
-            {
-                "addr": "DB492,I26",
-                "name": "10_Torq_Axis5"
-            },
-            {
-                "addr": "DB492,I28",
-                "name": "10_Torq_Axis6"
-            },
-            {
-                "addr": "DB492,I30",
-                "name": "10_Torq_Axis7"
-            },
-            {
-                "addr": "DB492,I32",
-                "name": "10_Torq_Axis8"
-            },
-            {
-                "addr": "DB492,B34",
-                "name": "10_Temp_Axis1"
-            },
-            {
-                "addr": "DB492,B35",
-                "name": "10_Temp_Axis2"
-            },
-            {
-                "addr": "DB492,B36",
-                "name": "10_Temp_Axis3"
-            },
-            {
-                "addr": "DB492,B37",
-                "name": "10_Temp_Axis4"
-            },
-            {
-                "addr": "DB492,B38",
-                "name": "10_Temp_Axis5"
-            },
-            {
-                "addr": "DB492,B39",
-                "name": "10_Temp_Axis6"
-            },
-            {
-                "addr": "DB492,B40",
-                "name": "10_Temp_Axis7"
-            },
-            {
-                "addr": "DB492,B41",
-                "name": "10_Temp_Axis8"
-            },
-            {
-                "addr": "DB493,I2",
-                "name": "11_Curr_Axis1"
-            },
-            {
-                "addr": "DB493,I4",
-                "name": "11_Curr_Axis2"
-            },
-            {
-                "addr": "DB493,I6",
-                "name": "11_Curr_Axis3"
-            },
-            {
-                "addr": "DB493,I8",
-                "name": "11_Curr_Axis4"
-            },
-            {
-                "addr": "DB493,I10",
-                "name": "11_Curr_Axis5"
-            },
-            {
-                "addr": "DB493,I12",
-                "name": "11_Curr_Axis6"
-            },
-            {
-                "addr": "DB493,I14",
-                "name": "11_Curr_Axis7"
-            },
-            {
-                "addr": "DB493,I16",
-                "name": "11_Curr_Axis8"
-            },
-            {
-                "addr": "DB493,I18",
-                "name": "11_Torq_Axis1"
-            },
-            {
-                "addr": "DB493,I20",
-                "name": "11_Torq_Axis2"
-            },
-            {
-                "addr": "DB493,I22",
-                "name": "11_Torq_Axis3"
-            },
-            {
-                "addr": "DB493,I24",
-                "name": "11_Torq_Axis4"
-            },
-            {
-                "addr": "DB493,I26",
-                "name": "11_Torq_Axis5"
-            },
-            {
-                "addr": "DB493,I28",
-                "name": "11_Torq_Axis6"
-            },
-            {
-                "addr": "DB493,I30",
-                "name": "11_Torq_Axis7"
-            },
-            {
-                "addr": "DB493,I32",
-                "name": "11_Torq_Axis8"
-            },
-            {
-                "addr": "DB493,B34",
-                "name": "11_Temp_Axis1"
-            },
-            {
-                "addr": "DB493,B35",
-                "name": "11_Temp_Axis2"
-            },
-            {
-                "addr": "DB493,B36",
-                "name": "11_Temp_Axis3"
-            },
-            {
-                "addr": "DB493,B37",
-                "name": "11_Temp_Axis4"
-            },
-            {
-                "addr": "DB493,B38",
-                "name": "11_Temp_Axis5"
-            },
-            {
-                "addr": "DB493,B39",
-                "name": "11_Temp_Axis6"
-            },
-            {
-                "addr": "DB493,B40",
-                "name": "11_Temp_Axis7"
-            },
-            {
-                "addr": "DB493,B41",
-                "name": "11_Temp_Axis8"
-            },
-            {
-                "addr": "DB494,I2",
-                "name": "12_Curr_Axis1"
-            },
-            {
-                "addr": "DB494,I4",
-                "name": "12_Curr_Axis2"
-            },
-            {
-                "addr": "DB494,I6",
-                "name": "12_Curr_Axis3"
-            },
-            {
-                "addr": "DB494,I8",
-                "name": "12_Curr_Axis4"
-            },
-            {
-                "addr": "DB494,I10",
-                "name": "12_Curr_Axis5"
-            },
-            {
-                "addr": "DB494,I12",
-                "name": "12_Curr_Axis6"
-            },
-            {
-                "addr": "DB494,I14",
-                "name": "12_Curr_Axis7"
-            },
-            {
-                "addr": "DB494,I16",
-                "name": "12_Curr_Axis8"
-            },
-            {
-                "addr": "DB494,I18",
-                "name": "12_Torq_Axis1"
-            },
-            {
-                "addr": "DB494,I20",
-                "name": "12_Torq_Axis2"
-            },
-            {
-                "addr": "DB494,I22",
-                "name": "12_Torq_Axis3"
-            },
-            {
-                "addr": "DB494,I24",
-                "name": "12_Torq_Axis4"
-            },
-            {
-                "addr": "DB494,I26",
-                "name": "12_Torq_Axis5"
-            },
-            {
-                "addr": "DB494,I28",
-                "name": "12_Torq_Axis6"
-            },
-            {
-                "addr": "DB494,I30",
-                "name": "12_Torq_Axis7"
-            },
-            {
-                "addr": "DB494,I32",
-                "name": "12_Torq_Axis8"
-            },
-            {
-                "addr": "DB494,B34",
-                "name": "12_Temp_Axis1"
-            },
-            {
-                "addr": "DB494,B35",
-                "name": "12_Temp_Axis2"
-            },
-            {
-                "addr": "DB494,B36",
-                "name": "12_Temp_Axis3"
-            },
-            {
-                "addr": "DB494,B37",
-                "name": "12_Temp_Axis4"
-            },
-            {
-                "addr": "DB494,B38",
-                "name": "12_Temp_Axis5"
-            },
-            {
-                "addr": "DB494,B39",
-                "name": "12_Temp_Axis6"
-            },
-            {
-                "addr": "DB494,B40",
-                "name": "12_Temp_Axis7"
-            },
-            {
-                "addr": "DB494,B41",
-                "name": "12_Temp_Axis8"
-            },
-            {
-                "addr": "DB495,I2",
-                "name": "13_Curr_Axis1"
-            },
-            {
-                "addr": "DB495,I4",
-                "name": "13_Curr_Axis2"
-            },
-            {
-                "addr": "DB495,I6",
-                "name": "13_Curr_Axis3"
-            },
-            {
-                "addr": "DB495,I8",
-                "name": "13_Curr_Axis4"
-            },
-            {
-                "addr": "DB495,I10",
-                "name": "13_Curr_Axis5"
-            },
-            {
-                "addr": "DB495,I12",
-                "name": "13_Curr_Axis6"
-            },
-            {
-                "addr": "DB495,I14",
-                "name": "13_Curr_Axis7"
-            },
-            {
-                "addr": "DB495,I16",
-                "name": "13_Curr_Axis8"
-            },
-            {
-                "addr": "DB495,I18",
-                "name": "13_Torq_Axis1"
-            },
-            {
-                "addr": "DB495,I20",
-                "name": "13_Torq_Axis2"
-            },
-            {
-                "addr": "DB495,I22",
-                "name": "13_Torq_Axis3"
-            },
-            {
-                "addr": "DB495,I24",
-                "name": "13_Torq_Axis4"
-            },
-            {
-                "addr": "DB495,I26",
-                "name": "13_Torq_Axis5"
-            },
-            {
-                "addr": "DB495,I28",
-                "name": "13_Torq_Axis6"
-            },
-            {
-                "addr": "DB495,I30",
-                "name": "13_Torq_Axis7"
-            },
-            {
-                "addr": "DB495,I32",
-                "name": "13_Torq_Axis8"
-            },
-            {
-                "addr": "DB495,B34",
-                "name": "13_Temp_Axis1"
-            },
-            {
-                "addr": "DB495,B35",
-                "name": "13_Temp_Axis2"
-            },
-            {
-                "addr": "DB495,B36",
-                "name": "13_Temp_Axis3"
-            },
-            {
-                "addr": "DB495,B37",
-                "name": "13_Temp_Axis4"
-            },
-            {
-                "addr": "DB495,B38",
-                "name": "13_Temp_Axis5"
-            },
-            {
-                "addr": "DB495,B39",
-                "name": "13_Temp_Axis6"
-            },
-            {
-                "addr": "DB495,B40",
-                "name": "13_Temp_Axis7"
-            },
-            {
-                "addr": "DB495,B41",
-                "name": "13_Temp_Axis8"
-            },
-            {
-                "addr": "DB497,I2",
-                "name": "14_Curr_Axis1"
-            },
-            {
-                "addr": "DB497,I4",
-                "name": "14_Curr_Axis2"
-            },
-            {
-                "addr": "DB497,I6",
-                "name": "14_Curr_Axis3"
-            },
-            {
-                "addr": "DB497,I8",
-                "name": "14_Curr_Axis4"
-            },
-            {
-                "addr": "DB497,I10",
-                "name": "14_Curr_Axis5"
-            },
-            {
-                "addr": "DB497,I12",
-                "name": "14_Curr_Axis6"
-            },
-            {
-                "addr": "DB497,I14",
-                "name": "14_Curr_Axis7"
-            },
-            {
-                "addr": "DB497,I16",
-                "name": "14_Curr_Axis8"
-            },
-            {
-                "addr": "DB497,I18",
-                "name": "14_Torq_Axis1"
-            },
-            {
-                "addr": "DB497,I20",
-                "name": "14_Torq_Axis2"
-            },
-            {
-                "addr": "DB497,I22",
-                "name": "14_Torq_Axis3"
-            },
-            {
-                "addr": "DB497,I24",
-                "name": "14_Torq_Axis4"
-            },
-            {
-                "addr": "DB497,I26",
-                "name": "14_Torq_Axis5"
-            },
-            {
-                "addr": "DB497,I28",
-                "name": "14_Torq_Axis6"
-            },
-            {
-                "addr": "DB497,I30",
-                "name": "14_Torq_Axis7"
-            },
-            {
-                "addr": "DB497,I32",
-                "name": "14_Torq_Axis8"
-            },
-            {
-                "addr": "DB497,B34",
-                "name": "14_Temp_Axis1"
-            },
-            {
-                "addr": "DB497,B35",
-                "name": "14_Temp_Axis2"
-            },
-            {
-                "addr": "DB497,B36",
-                "name": "14_Temp_Axis3"
-            },
-            {
-                "addr": "DB497,B37",
-                "name": "14_Temp_Axis4"
-            },
-            {
-                "addr": "DB497,B38",
-                "name": "14_Temp_Axis5"
-            },
-            {
-                "addr": "DB497,B39",
-                "name": "14_Temp_Axis6"
-            },
-            {
-                "addr": "DB497,B40",
-                "name": "14_Temp_Axis7"
-            },
-            {
-                "addr": "DB497,B41",
-                "name": "14_Temp_Axis8"
-            }
-        ]
+        "id": "6edc01fa21ac87f6",
+        "type": "tab",
+        "label": "Flow_ShiftProduction_OEE",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "46f403bb7a792c20",
+        "type": "tab",
+        "label": "Flow_CycleTime",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9222b9b850138625",
+        "type": "tab",
+        "label": "Flow_HourlyProduction",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b97632a1efdf4fa6",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": "",
+        "env": []
     },
     {
         "id": "4241e13b1ab6b532",
@@ -5743,44 +4370,6 @@
         ]
     },
     {
-        "id": "cd869b6594901758",
-        "type": "s7 endpoint",
-        "z": "d2f524c7386c779e",
-        "transport": "iso-on-tcp",
-        "address": "172.168.99.155",
-        "port": "102",
-        "rack": "0",
-        "slot": "1",
-        "localtsaphi": "01",
-        "localtsaplo": "00",
-        "remotetsaphi": "01",
-        "remotetsaplo": "00",
-        "connmode": "rack-slot",
-        "adapter": "",
-        "busaddr": 2,
-        "cycletime": 1000,
-        "timeout": 2000,
-        "name": "Cycle Time",
-        "vartable": [
-            {
-                "addr": "DB428,W266",
-                "name": "CabinNo"
-            },
-            {
-                "addr": "DB199,DT24",
-                "name": "StartDate"
-            },
-            {
-                "addr": "DB199,DT32",
-                "name": "EndDate"
-            },
-            {
-                "addr": "DB428,I192",
-                "name": "CycleTime"
-            }
-        ]
-    },
-    {
         "id": "s7-ep",
         "type": "s7 endpoint",
         "z": "1a84d6e3645699d7",
@@ -7147,240 +5736,6 @@
         ]
     },
     {
-        "id": "s7plc",
-        "type": "s7 endpoint",
-        "z": "77b8f05fc0c712f8",
-        "transport": "iso-on-tcp",
-        "address": "172.168.99.155",
-        "port": "102",
-        "rack": "0",
-        "slot": "1",
-        "localtsaphi": "01",
-        "localtsaplo": "00",
-        "remotetsaphi": "01",
-        "remotetsaplo": "00",
-        "connmode": "rack-slot",
-        "adapter": "",
-        "busaddr": "",
-        "cycletime": "1000",
-        "timeout": "2000",
-        "name": "PLC",
-        "vartable": [
-            {
-                "addr": "DB428,I0",
-                "name": "01_RH"
-            },
-            {
-                "addr": "DB428,I2",
-                "name": "02_RH"
-            },
-            {
-                "addr": "DB428,I4",
-                "name": "03_RH"
-            },
-            {
-                "addr": "DB428,I6",
-                "name": "04_RH"
-            },
-            {
-                "addr": "DB428,I8",
-                "name": "05_RH"
-            },
-            {
-                "addr": "DB428,I10",
-                "name": "06_RH"
-            },
-            {
-                "addr": "DB428,I12",
-                "name": "07_RH"
-            },
-            {
-                "addr": "DB428,I14",
-                "name": "08_RH"
-            },
-            {
-                "addr": "DB428,I16",
-                "name": "09_RH"
-            },
-            {
-                "addr": "DB428,I18",
-                "name": "10_RH"
-            },
-            {
-                "addr": "DB428,I20",
-                "name": "11_RH"
-            },
-            {
-                "addr": "DB428,I22",
-                "name": "12_RH"
-            },
-            {
-                "addr": "DB428,I24",
-                "name": "13_RH"
-            },
-            {
-                "addr": "DB428,I26",
-                "name": "14_RH"
-            },
-            {
-                "addr": "DB428,I28",
-                "name": "15_RH"
-            },
-            {
-                "addr": "DB428,I30",
-                "name": "16_RH"
-            },
-            {
-                "addr": "DB428,I32",
-                "name": "17_RH"
-            },
-            {
-                "addr": "DB428,I34",
-                "name": "18_RH"
-            },
-            {
-                "addr": "DB428,I36",
-                "name": "19_RH"
-            },
-            {
-                "addr": "DB428,I38",
-                "name": "20_RH"
-            },
-            {
-                "addr": "DB428,I40",
-                "name": "21_RH"
-            },
-            {
-                "addr": "DB428,I42",
-                "name": "22_RH"
-            },
-            {
-                "addr": "DB428,I44",
-                "name": "23_RH"
-            },
-            {
-                "addr": "DB428,I46",
-                "name": "24_RH"
-            },
-            {
-                "addr": "DB428,I60",
-                "name": "01_LH"
-            },
-            {
-                "addr": "DB428,I62",
-                "name": "02_LH"
-            },
-            {
-                "addr": "DB428,I64",
-                "name": "03_LH"
-            },
-            {
-                "addr": "DB428,I66",
-                "name": "04_LH"
-            },
-            {
-                "addr": "DB428,I68",
-                "name": "05_LH"
-            },
-            {
-                "addr": "DB428,I70",
-                "name": "06_LH"
-            },
-            {
-                "addr": "DB428,I72",
-                "name": "07_LH"
-            },
-            {
-                "addr": "DB428,I74",
-                "name": "08_LH"
-            },
-            {
-                "addr": "DB428,I76",
-                "name": "09_LH"
-            },
-            {
-                "addr": "DB428,I78",
-                "name": "10_LH"
-            },
-            {
-                "addr": "DB428,I80",
-                "name": "11_LH"
-            },
-            {
-                "addr": "DB428,I82",
-                "name": "12_LH"
-            },
-            {
-                "addr": "DB428,I84",
-                "name": "13_LH"
-            },
-            {
-                "addr": "DB428,I86",
-                "name": "14_LH"
-            },
-            {
-                "addr": "DB428,I88",
-                "name": "15_LH"
-            },
-            {
-                "addr": "DB428,I90",
-                "name": "16_LH"
-            },
-            {
-                "addr": "DB428,I92",
-                "name": "17_LH"
-            },
-            {
-                "addr": "DB428,I94",
-                "name": "18_LH"
-            },
-            {
-                "addr": "DB428,I96",
-                "name": "19_LH"
-            },
-            {
-                "addr": "DB428,I98",
-                "name": "20_LH"
-            },
-            {
-                "addr": "DB428,I100",
-                "name": "21_LH"
-            },
-            {
-                "addr": "DB428,I102",
-                "name": "22_LH"
-            },
-            {
-                "addr": "DB428,I104",
-                "name": "23_LH"
-            },
-            {
-                "addr": "DB428,I106",
-                "name": "24_LH"
-            }
-        ]
-    },
-    {
-        "id": "78afed567ef169d7",
-        "type": "MSSQL-CN",
-        "z": "77b8f05fc0c712f8",
-        "tdsVersion": "7_4",
-        "name": "Mssql Connection",
-        "server": "10.119.1.238",
-        "port": "1433",
-        "encyption": true,
-        "trustServerCertificate": true,
-        "database": "JBM",
-        "useUTC": true,
-        "connectTimeout": "15000",
-        "requestTimeout": "15000",
-        "cancelTimeout": "5000",
-        "pool": "5",
-        "parseJSON": false,
-        "enableArithAbort": true,
-        "readOnlyIntent": false
-    },
-    {
         "id": "b0512d1c226ceb67",
         "type": "s7 endpoint",
         "z": "9dab2313a2f19c0b",
@@ -8007,88 +6362,6 @@
         "readOnlyIntent": false
     },
     {
-        "id": "b2b6a7e4789a4f8e",
-        "type": "s7 endpoint",
-        "z": "a1e07c2d53e4c8ee",
-        "transport": "iso-on-tcp",
-        "address": "172.168.99.155",
-        "port": "102",
-        "rack": "0",
-        "slot": "1",
-        "localtsaphi": "01",
-        "localtsaplo": "00",
-        "remotetsaphi": "01",
-        "remotetsaplo": "00",
-        "connmode": "rack-slot",
-        "adapter": "",
-        "busaddr": "",
-        "cycletime": "1000",
-        "timeout": 1500,
-        "name": "Shift Production",
-        "vartable": [
-            {
-                "addr": "DB99,X40.0",
-                "name": "SHIFT_A"
-            },
-            {
-                "addr": "DB99,X40.1",
-                "name": "SHIFT_B"
-            },
-            {
-                "addr": "DB99,X40.2",
-                "name": "SHIFT_C"
-            },
-            {
-                "addr": "DB428,I108",
-                "name": "ACTUALLHA"
-            },
-            {
-                "addr": "DB428,I110",
-                "name": "ACTUALLHB"
-            },
-            {
-                "addr": "DB428,I112",
-                "name": "ACTUALLHC"
-            },
-            {
-                "addr": "DB428,I48",
-                "name": "ACTUALRHA"
-            },
-            {
-                "addr": "DB428,I50",
-                "name": "ACTUALRHB"
-            },
-            {
-                "addr": "DB428,I52",
-                "name": "ACTUALRHC"
-            },
-            {
-                "addr": "DB98,I4",
-                "name": "TARGETA"
-            },
-            {
-                "addr": "DB98,I6",
-                "name": "TARGETB"
-            },
-            {
-                "addr": "DB98,I8",
-                "name": "TARGETC"
-            },
-            {
-                "addr": "DB98,I20",
-                "name": "Actual_CountA"
-            },
-            {
-                "addr": "DB98,I22",
-                "name": "Actual_CountB"
-            },
-            {
-                "addr": "DB98,I24",
-                "name": "Actual_CountC"
-            }
-        ]
-    },
-    {
         "id": "c65f27233e3cd6c7",
         "type": "s7 endpoint",
         "z": "69c80b9824af6584",
@@ -8275,7 +6548,7 @@
         "type": "s7 endpoint",
         "z": "5872bea43d03ee26",
         "transport": "iso-on-tcp",
-        "address": "172.168.99.155",
+        "address": "192.168.2.1",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -8291,36 +6564,44 @@
         "name": "Target Monthly Daily",
         "vartable": [
             {
-                "addr": "DB98,I0",
+                "addr": "DB5000,I366",
                 "name": "Monthly_Target"
             },
             {
-                "addr": "DB98,I26",
+                "addr": "DB5000,I366",
                 "name": "Monthly_Achieved"
             },
             {
-                "addr": "DB98,I4",
-                "name": "ShiftA_Target"
+                "addr": "DB5000,I366",
+                "name": "DailyTarget"
             },
             {
-                "addr": "DB98,I6",
-                "name": "ShiftB_Target"
+                "addr": "DB5000,I440",
+                "name": "DailyAchived"
             },
             {
-                "addr": "DB98,I8",
-                "name": "ShiftC_Target"
+                "addr": "DB5000,I398",
+                "name": "A_LHD"
             },
             {
-                "addr": "DB98,I22",
-                "name": "ShiftA_Achieved"
+                "addr": "DB5000,I400",
+                "name": "B_LHD"
             },
             {
-                "addr": "DB98,I24",
-                "name": "ShiftB_Achieved"
+                "addr": "DB5000,I402",
+                "name": "C_LHD"
             },
             {
-                "addr": "DB98,I26",
-                "name": "ShiftC_Achieved"
+                "addr": "DB5000,I404",
+                "name": "A_RHD"
+            },
+            {
+                "addr": "DB5000,I406",
+                "name": "B_RHD"
+            },
+            {
+                "addr": "DB5000,I408",
+                "name": "C_RHD"
             }
         ]
     },
@@ -8330,11 +6611,11 @@
         "z": "5872bea43d03ee26",
         "tdsVersion": "7_4",
         "name": "MSSQl",
-        "server": "10.119.1.238",
+        "server": "DESKTOP-UEMD3BN\\MSSQLSERVER2022",
         "port": "1433",
         "encyption": true,
         "trustServerCertificate": true,
-        "database": "JBM",
+        "database": "DB_VECV_Pro2000",
         "useUTC": true,
         "connectTimeout": "15000",
         "requestTimeout": "15000",
@@ -8463,26 +6744,6 @@
         "readOnlyIntent": false
     },
     {
-        "id": "2d27e40c6086c913",
-        "type": "MSSQL-CN",
-        "z": "d2f524c7386c779e",
-        "tdsVersion": "7_4",
-        "name": "SQL",
-        "server": "10.119.1.238",
-        "port": "1433",
-        "encyption": true,
-        "trustServerCertificate": true,
-        "database": "JBM",
-        "useUTC": true,
-        "connectTimeout": "15000",
-        "requestTimeout": "15000",
-        "cancelTimeout": "5000",
-        "pool": "5",
-        "parseJSON": false,
-        "enableArithAbort": true,
-        "readOnlyIntent": false
-    },
-    {
         "id": "589628c48ca75fab",
         "type": "MSSQL-CN",
         "z": "1a84d6e3645699d7",
@@ -8493,26 +6754,6 @@
         "encyption": true,
         "trustServerCertificate": true,
         "database": "JBM",
-        "useUTC": true,
-        "connectTimeout": "15000",
-        "requestTimeout": "15000",
-        "cancelTimeout": "5000",
-        "pool": "5",
-        "parseJSON": false,
-        "enableArithAbort": true,
-        "readOnlyIntent": false
-    },
-    {
-        "id": "ab6a360aeab04103",
-        "type": "MSSQL-CN",
-        "z": "a1e07c2d53e4c8ee",
-        "tdsVersion": "7_4",
-        "name": "SQL",
-        "server": "192.168.1.64",
-        "port": "1433",
-        "encyption": true,
-        "trustServerCertificate": true,
-        "database": "DB_VECV_Titan",
         "useUTC": true,
         "connectTimeout": "15000",
         "requestTimeout": "15000",
@@ -8563,92 +6804,463 @@
         "readOnlyIntent": false
     },
     {
-        "id": "12d53d8ac86de05d",
-        "type": "s7 in",
-        "z": "928a659e27e15d3b",
-        "endpoint": "ce66f7ece50d94dd",
-        "mode": "all",
-        "variable": "rbt01",
-        "diff": false,
-        "name": "S7",
-        "x": 150,
-        "y": 180,
-        "wires": [
-            [
-                "7c183a83250c3342",
-                "d9bde5195b941785"
-            ]
+        "id": "b10a3e4948cfa0e9",
+        "type": "MSSQL-CN",
+        "z": "5872bea43d03ee26",
+        "tdsVersion": "7_4",
+        "name": "SQL",
+        "server": "DESKTOP-UEMD3BN\\MSSQLSERVER2022",
+        "port": "1433",
+        "encyption": true,
+        "trustServerCertificate": true,
+        "database": "DB_VECV_Pro2000",
+        "useUTC": true,
+        "connectTimeout": "15000",
+        "requestTimeout": "15000",
+        "cancelTimeout": "5000",
+        "pool": "5",
+        "parseJSON": false,
+        "enableArithAbort": true,
+        "readOnlyIntent": false
+    },
+    {
+        "id": "8609589c4bdefe9a",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "192.168.2.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": 2,
+        "cycletime": 1000,
+        "timeout": 2000,
+        "name": "s7",
+        "vartable": [
+            {
+                "addr": "DB5000,I312",
+                "name": "abc"
+            }
         ]
     },
     {
-        "id": "d9bde5195b941785",
-        "type": "debug",
-        "z": "928a659e27e15d3b",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 620,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "7c183a83250c3342",
-        "type": "function",
-        "z": "928a659e27e15d3b",
-        "name": "function 1",
-        "func": "msg.payload = `${JSON.stringify(msg.payload)}\\n`;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "120",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 180,
-        "wires": [
-            [
-                "0bba34e65b3fb573"
-            ]
+        "id": "f9ebf099b35c43d7",
+        "type": "s7 endpoint",
+        "z": "6edc01fa21ac87f6",
+        "transport": "iso-on-tcp",
+        "address": "192.168.2.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": 2,
+        "cycletime": 1000,
+        "timeout": 2000,
+        "name": "Shift Production",
+        "vartable": [
+            {
+                "addr": "DB5000,X530.0",
+                "name": "SHIFTATigger"
+            },
+            {
+                "addr": "DB5000,X530.1",
+                "name": "SHIFTBTigger"
+            },
+            {
+                "addr": "DB5000,X530.2",
+                "name": "SHIFTCTigger"
+            },
+            {
+                "addr": "DB5000,I360",
+                "name": "TargetA"
+            },
+            {
+                "addr": "DB5000,I362",
+                "name": "TargetB"
+            },
+            {
+                "addr": "DB5000,I364",
+                "name": "TargetC"
+            },
+            {
+                "addr": "DB5000,I434",
+                "name": "ActualA"
+            },
+            {
+                "addr": "DB5000,I436",
+                "name": "ActualB"
+            },
+            {
+                "addr": "DB5000,I438",
+                "name": "ActualC"
+            },
+            {
+                "addr": "DB5000,I410",
+                "name": "ShiftAOK"
+            },
+            {
+                "addr": "DB5000,I412",
+                "name": "ShiftBOK"
+            },
+            {
+                "addr": "DB5000,I414",
+                "name": "ShiftCOK"
+            },
+            {
+                "addr": "DB5000,I416",
+                "name": "ShiftANOK"
+            },
+            {
+                "addr": "DB5000,I418",
+                "name": "ShiftBNOK"
+            },
+            {
+                "addr": "DB5000,I420",
+                "name": "ShiftCNOK"
+            },
+            {
+                "addr": "DB5000,I422",
+                "name": "ShiftACTWithin"
+            },
+            {
+                "addr": "DB5000,I424",
+                "name": "ShiftBCTWithin"
+            },
+            {
+                "addr": "DB5000,I426",
+                "name": "ShiftCCTWithin"
+            },
+            {
+                "addr": "DB5000,I428",
+                "name": "ShiftACTExceeded"
+            },
+            {
+                "addr": "DB5000,I430",
+                "name": "ShiftBCTExceeded"
+            },
+            {
+                "addr": "DB5000,I432",
+                "name": "ShiftCCTExceeded"
+            },
+            {
+                "addr": "DB185,DI0",
+                "name": "ShiftADowntime"
+            },
+            {
+                "addr": "DB185,DI4",
+                "name": "ShiftBDowntime"
+            },
+            {
+                "addr": "DB185,DI8",
+                "name": "ShiftCDowntime"
+            },
+            {
+                "addr": "DB185,R96",
+                "name": "ShiftAAvailability"
+            },
+            {
+                "addr": "DB185,R100",
+                "name": "ShiftBAvailability"
+            },
+            {
+                "addr": "DB185,R104",
+                "name": "ShiftCAvailability"
+            },
+            {
+                "addr": "DB185,R108",
+                "name": "ShiftAPerformance"
+            },
+            {
+                "addr": "DB185,R112",
+                "name": "ShiftBPerformance"
+            },
+            {
+                "addr": "DB185,R116",
+                "name": "ShiftCPerformance"
+            },
+            {
+                "addr": "DB185,R120",
+                "name": "ShiftAQuality"
+            },
+            {
+                "addr": "DB185,R124",
+                "name": "ShiftBQuality"
+            },
+            {
+                "addr": "DB185,R128",
+                "name": "ShiftCQuality"
+            },
+            {
+                "addr": "DB185,R132",
+                "name": "ShiftAOEE"
+            },
+            {
+                "addr": "DB185,R136",
+                "name": "ShiftBOEE"
+            },
+            {
+                "addr": "DB185,R140",
+                "name": "ShiftCOEE"
+            },
+            {
+                "addr": "DB185,I144",
+                "name": "ShiftAPlanProductionCount"
+            },
+            {
+                "addr": "DB185,I146",
+                "name": "ShiftBPlanProductionCount"
+            },
+            {
+                "addr": "DB185,I148",
+                "name": "ShiftCPlanProductionCount"
+            },
+            {
+                "addr": "DB185,I150",
+                "name": "SHIFTADeltaProductionCount"
+            },
+            {
+                "addr": "DB185,I152",
+                "name": "SHIFTBDeltaProductionCount"
+            },
+            {
+                "addr": "DB185,I154",
+                "name": "SHIFTCDeltaProductionCount"
+            }
         ]
     },
     {
-        "id": "c08d111509847f49",
-        "type": "inject",
-        "z": "928a659e27e15d3b",
-        "name": "",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 130,
-        "y": 100,
-        "wires": [
-            []
+        "id": "acbb847b231a5a08",
+        "type": "MSSQL-CN",
+        "z": "6edc01fa21ac87f6",
+        "tdsVersion": "7_4",
+        "name": "MSSOL Shift Production",
+        "server": "DESKTOP-UEMD3BN\\MSSQLSERVER2022",
+        "port": "1433",
+        "encyption": true,
+        "trustServerCertificate": true,
+        "database": "DB_VECV_Pro2000",
+        "useUTC": true,
+        "connectTimeout": "15000",
+        "requestTimeout": "15000",
+        "cancelTimeout": "5000",
+        "pool": "5",
+        "parseJSON": false,
+        "enableArithAbort": true,
+        "readOnlyIntent": false
+    },
+    {
+        "id": "17140f0e34a733c2",
+        "type": "s7 endpoint",
+        "z": "46f403bb7a792c20",
+        "transport": "iso-on-tcp",
+        "address": "192.168.2.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": 2,
+        "cycletime": 1000,
+        "timeout": 2000,
+        "name": "Cycle Time",
+        "vartable": [
+            {
+                "addr": "DB184,DI18",
+                "name": "CabinNo"
+            },
+            {
+                "addr": "DB184,DT22",
+                "name": "StartDate"
+            },
+            {
+                "addr": "DB184,DT30",
+                "name": "EndDate"
+            },
+            {
+                "addr": "DB184,DI14",
+                "name": "CycleTime"
+            }
         ]
     },
     {
-        "id": "0bba34e65b3fb573",
-        "type": "file",
-        "z": "928a659e27e15d3b",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\CheckCurr.txt",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 590,
-        "y": 140,
-        "wires": [
-            []
+        "id": "c2e588bfe47427bd",
+        "type": "MSSQL-CN",
+        "z": "46f403bb7a792c20",
+        "tdsVersion": "7_4",
+        "name": "MSSQL",
+        "server": "DESKTOP-UEMD3BN\\MSSQLSERVER2022",
+        "port": "1433",
+        "encyption": true,
+        "trustServerCertificate": true,
+        "database": "DB_VECV_Pro2000",
+        "useUTC": true,
+        "connectTimeout": "15000",
+        "requestTimeout": "15000",
+        "cancelTimeout": "5000",
+        "pool": "5",
+        "parseJSON": false,
+        "enableArithAbort": true,
+        "readOnlyIntent": false
+    },
+    {
+        "id": "6d97500974b53d2f",
+        "type": "s7 endpoint",
+        "z": "9222b9b850138625",
+        "transport": "iso-on-tcp",
+        "address": "192.168.2.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": "",
+        "cycletime": "1000",
+        "timeout": "2000",
+        "name": "Hourly Prduction",
+        "vartable": [
+            {
+                "addr": "DB5000,I260",
+                "name": "08:00-09:00"
+            },
+            {
+                "addr": "DB5000,I262",
+                "name": "09:00-10:00"
+            },
+            {
+                "addr": "DB5000,I264",
+                "name": "10:00-11:00"
+            },
+            {
+                "addr": "DB5000,I266",
+                "name": "11:00-12:00"
+            },
+            {
+                "addr": "DB5000,I268",
+                "name": "12:00-13:00"
+            },
+            {
+                "addr": "DB5000,I270",
+                "name": "13:00-14:00"
+            },
+            {
+                "addr": "DB5000,I272",
+                "name": "14:00-15:00"
+            },
+            {
+                "addr": "DB5000,I274",
+                "name": "15:00-16:00"
+            },
+            {
+                "addr": "DB5000,I276",
+                "name": "16:00-16:30"
+            },
+            {
+                "addr": "DB5000,I278",
+                "name": "16:30-17:00"
+            },
+            {
+                "addr": "DB5000,I280",
+                "name": "17:00-18:00"
+            },
+            {
+                "addr": "DB5000,I282",
+                "name": "18:00-19:00"
+            },
+            {
+                "addr": "DB5000,I284",
+                "name": "19:00-20:00"
+            },
+            {
+                "addr": "DB5000,I286",
+                "name": "20:00-21:00"
+            },
+            {
+                "addr": "DB5000,I288",
+                "name": "21:00-22:00"
+            },
+            {
+                "addr": "DB5000,I290",
+                "name": "22:00-23:00"
+            },
+            {
+                "addr": "DB5000,I292",
+                "name": "23:00-00:00"
+            },
+            {
+                "addr": "DB5000,I294",
+                "name": "00:00-00:30"
+            },
+            {
+                "addr": "DB5000,I296",
+                "name": "00:30-01:00"
+            },
+            {
+                "addr": "DB5000,I298",
+                "name": "01:00-02:00"
+            },
+            {
+                "addr": "DB5000,I300",
+                "name": "02:00--03:00"
+            },
+            {
+                "addr": "DB5000,I302",
+                "name": "03:00-04:00"
+            },
+            {
+                "addr": "DB5000,I304",
+                "name": "04:00-05:00"
+            },
+            {
+                "addr": "DB5000,I306",
+                "name": "05:00-06:00"
+            },
+            {
+                "addr": "DB5000,I308",
+                "name": "06:00-07:00"
+            },
+            {
+                "addr": "DB5000,I310",
+                "name": "07:00-08:00"
+            }
         ]
+    },
+    {
+        "id": "d7e919c558b41a47",
+        "type": "MSSQL-CN",
+        "z": "9222b9b850138625",
+        "tdsVersion": "7_4",
+        "name": "SQL",
+        "server": "DESKTOP-UEMD3BN\\MSSQLSERVER2022",
+        "port": "1433",
+        "encyption": true,
+        "trustServerCertificate": true,
+        "database": "DB_VECV_Pro2000",
+        "useUTC": true,
+        "connectTimeout": "15000",
+        "requestTimeout": "15000",
+        "cancelTimeout": "5000",
+        "pool": "5",
+        "parseJSON": false,
+        "enableArithAbort": true,
+        "readOnlyIntent": false
     },
     {
         "id": "e2262b3e34402016",
@@ -8711,58 +7323,6 @@
             [
                 "8b024b73670566b5"
             ]
-        ]
-    },
-    {
-        "id": "dc462fec4efde72f",
-        "type": "catch",
-        "z": "4130cccc0fa67e06",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 70,
-        "y": 220,
-        "wires": [
-            [
-                "e1fc15c4a293b33c"
-            ]
-        ]
-    },
-    {
-        "id": "e1fc15c4a293b33c",
-        "type": "function",
-        "z": "4130cccc0fa67e06",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 220,
-        "wires": [
-            [
-                "c4d95e0c516f4e5b"
-            ]
-        ]
-    },
-    {
-        "id": "c4d95e0c516f4e5b",
-        "type": "file",
-        "z": "4130cccc0fa67e06",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\ML_10_Error.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 520,
-        "y": 220,
-        "wires": [
-            []
         ]
     },
     {
@@ -8879,58 +7439,6 @@
         ]
     },
     {
-        "id": "71e6550b47e02f4a",
-        "type": "catch",
-        "z": "48c45cbe6bb6019f",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 70,
-        "y": 220,
-        "wires": [
-            [
-                "ef20178f260946f3"
-            ]
-        ]
-    },
-    {
-        "id": "ef20178f260946f3",
-        "type": "function",
-        "z": "48c45cbe6bb6019f",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 220,
-        "wires": [
-            [
-                "659bc7b1c13a1d56"
-            ]
-        ]
-    },
-    {
-        "id": "659bc7b1c13a1d56",
-        "type": "file",
-        "z": "48c45cbe6bb6019f",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\ML_20_Error.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 520,
-        "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "af1dcef54c5449fa",
         "type": "inject",
         "z": "48c45cbe6bb6019f",
@@ -9041,58 +7549,6 @@
             [
                 "e9d09df7260b8da5"
             ]
-        ]
-    },
-    {
-        "id": "679d80dd01b4153d",
-        "type": "catch",
-        "z": "4cb0b90ae176b7d1",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 70,
-        "y": 220,
-        "wires": [
-            [
-                "c722d3c1e78ef36c"
-            ]
-        ]
-    },
-    {
-        "id": "c722d3c1e78ef36c",
-        "type": "function",
-        "z": "4cb0b90ae176b7d1",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 220,
-        "wires": [
-            [
-                "99c4ad02c58f5339"
-            ]
-        ]
-    },
-    {
-        "id": "99c4ad02c58f5339",
-        "type": "file",
-        "z": "4cb0b90ae176b7d1",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\ML_30_Error.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 520,
-        "y": 220,
-        "wires": [
-            []
         ]
     },
     {
@@ -9209,58 +7665,6 @@
         ]
     },
     {
-        "id": "50cc9b032a58ca0a",
-        "type": "catch",
-        "z": "bc2aab26b1ba020d",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 70,
-        "y": 220,
-        "wires": [
-            [
-                "10d1291593e6cb0d"
-            ]
-        ]
-    },
-    {
-        "id": "10d1291593e6cb0d",
-        "type": "function",
-        "z": "bc2aab26b1ba020d",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 220,
-        "wires": [
-            [
-                "239fb17d05d9ba6c"
-            ]
-        ]
-    },
-    {
-        "id": "239fb17d05d9ba6c",
-        "type": "file",
-        "z": "bc2aab26b1ba020d",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\ML_40_Error.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 520,
-        "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "a28a0446ca5e4b90",
         "type": "inject",
         "z": "bc2aab26b1ba020d",
@@ -9348,58 +7752,6 @@
         ]
     },
     {
-        "id": "a307dca4be505910",
-        "type": "catch",
-        "z": "d56e9038cfc4ecfb",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 290,
-        "y": 280,
-        "wires": [
-            [
-                "0b61a2f5e1089f4a"
-            ]
-        ]
-    },
-    {
-        "id": "0b61a2f5e1089f4a",
-        "type": "function",
-        "z": "d56e9038cfc4ecfb",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 500,
-        "y": 280,
-        "wires": [
-            [
-                "7a9451015cbe1bab"
-            ]
-        ]
-    },
-    {
-        "id": "7a9451015cbe1bab",
-        "type": "file",
-        "z": "d56e9038cfc4ecfb",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\ACTIntruption_collision.txt",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 770,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "db9fe116b7e56482",
         "type": "inject",
         "z": "d56e9038cfc4ecfb",
@@ -9476,206 +7828,6 @@
         ]
     },
     {
-        "id": "inject_cabin",
-        "type": "inject",
-        "z": "d2f524c7386c779e",
-        "name": "Inject Cabin Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": "",
-        "topic": "",
-        "payload": "{\"CabinNo\":1,\"StartDate\":\"2025-09-04T14:00:00\",\"EndDate\":\"2025-09-04T14:10:00\",\"CycleTime\":100}",
-        "payloadType": "json",
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "5cb5e92877211704"
-            ]
-        ]
-    },
-    {
-        "id": "func_proc_call",
-        "type": "function",
-        "z": "d2f524c7386c779e",
-        "name": "Prepare SP Call",
-        "func": "let previous = flow.get('previousTags_CT') || {};\nlet data = msg.payload;\n\n// node.warn(data.CabinNo);\n// node.warn(previous.CabinNo);\n  if (data.CabinNo !== previous.CabinNo) {\n  \n    // Prepare SQL data\n    let sqlMsg = {\n        payload: \"USP_Insert_Update_Cabin_Cycle\",\n        queryParams: [\n            {   name: \"CabinNo\", value: data.CabinNo },\n            {   name: \"StartDate\", value: data.StartDate },\n            {   name: \"EndDate\", value: data.EndDate },\n            {   name: \"CycleTime\", value: data.CycleTime },\n            {   name: \"TimeStamp\", value:new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    flow.set('previousTags_CT', data);\n\n\n    return sqlMsg;  // Only return when value changed\n }\n\nreturn null;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 160,
-        "wires": [
-            [
-                "1fbcdd4a705b349d",
-                "dcb67c1897af8ee8"
-            ]
-        ]
-    },
-    {
-        "id": "1733551e7bda5e31",
-        "type": "catch",
-        "z": "d2f524c7386c779e",
-        "name": "",
-        "scope": "group",
-        "uncaught": true,
-        "x": 90,
-        "y": 380,
-        "wires": [
-            [
-                "b893b3660daad1a7"
-            ]
-        ]
-    },
-    {
-        "id": "b893b3660daad1a7",
-        "type": "function",
-        "z": "d2f524c7386c779e",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 380,
-        "wires": [
-            [
-                "f3fd20f943fb49ce"
-            ]
-        ]
-    },
-    {
-        "id": "f3fd20f943fb49ce",
-        "type": "file",
-        "z": "d2f524c7386c779e",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\cycle_Time.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 540,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1b8fd6d16f1c0640",
-        "type": "s7 in",
-        "z": "d2f524c7386c779e",
-        "endpoint": "cd869b6594901758",
-        "mode": "all",
-        "variable": "",
-        "diff": true,
-        "name": "Cycle Time",
-        "x": 80,
-        "y": 160,
-        "wires": [
-            [
-                "5cb5e92877211704"
-            ]
-        ]
-    },
-    {
-        "id": "5cb5e92877211704",
-        "type": "rbe",
-        "z": "d2f524c7386c779e",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload.CabinNo",
-        "topi": "topic",
-        "x": 330,
-        "y": 160,
-        "wires": [
-            [
-                "func_proc_call"
-            ]
-        ]
-    },
-    {
-        "id": "dcb67c1897af8ee8",
-        "type": "debug",
-        "z": "d2f524c7386c779e",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 760,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "66bba6ee10c1fb07",
-        "type": "inject",
-        "z": "d2f524c7386c779e",
-        "name": "Inject Cabin Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": "",
-        "topic": "",
-        "payload": "{\"CabinNo\":2,\"StartDate\":\"2025-09-04T14:00:00\",\"EndDate\":\"2025-09-04T14:10:00\",\"CycleTime\":100}",
-        "payloadType": "json",
-        "x": 140,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1fbcdd4a705b349d",
-        "type": "MSSQL",
-        "z": "d2f524c7386c779e",
-        "mssqlCN": "2d27e40c6086c913",
-        "name": "MSSQL",
-        "outField": "payload",
-        "returnType": 0,
-        "throwErrors": 1,
-        "query": "",
-        "modeOpt": "",
-        "modeOptType": "execute",
-        "queryOpt": "payload",
-        "queryOptType": "msg",
-        "paramsOpt": "queryParams",
-        "paramsOptType": "msg",
-        "rows": "rows",
-        "rowsType": "msg",
-        "parseMustache": true,
-        "params": [],
-        "x": 740,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "86b0b13a0b2c7f68",
         "type": "s7 in",
         "z": "1a84d6e3645699d7",
@@ -9736,58 +7888,6 @@
         ]
     },
     {
-        "id": "76279a7f6718e1ac",
-        "type": "function",
-        "z": "1a84d6e3645699d7",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 220,
-        "wires": [
-            [
-                "5af90ae4fad3b29a"
-            ]
-        ]
-    },
-    {
-        "id": "fc8edf9deb11c8e6",
-        "type": "catch",
-        "z": "1a84d6e3645699d7",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 90,
-        "y": 220,
-        "wires": [
-            [
-                "76279a7f6718e1ac"
-            ]
-        ]
-    },
-    {
-        "id": "5af90ae4fad3b29a",
-        "type": "file",
-        "z": "1a84d6e3645699d7",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\Flow_Current_Torque_Temp.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": false,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 590,
-        "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "7c0e9b6af7a80c40",
         "type": "MSSQL",
         "z": "1a84d6e3645699d7",
@@ -9834,187 +7934,6 @@
         "y": 160,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "8550a176364114e3",
-        "type": "s7 in",
-        "z": "77b8f05fc0c712f8",
-        "endpoint": "s7plc",
-        "mode": "all",
-        "variable": "01",
-        "diff": true,
-        "name": "Hourly Production",
-        "x": 90,
-        "y": 180,
-        "wires": [
-            [
-                "784091927262c47e"
-            ]
-        ]
-    },
-    {
-        "id": "784091927262c47e",
-        "type": "function",
-        "z": "77b8f05fc0c712f8",
-        "name": "function 2",
-        "func": "let previous = flow.get('previousTags_HP') || {};\nlet current = msg.payload;\nlet changed = [];\n\n// Detect changed values\nfor (let tag in current) {\n    if (current[tag] !== previous[tag]) {\n        changed.push({\n            name: tag,\n            value: current[tag]\n        });\n    }\n}\n\n// Save current values for next time\nflow.set('previousTags_HP', current);\n\n\nlet msgs = [];\nif (changed.length > 0) {\n    let now = new Date().toISOString();\n    // let currentDate = now.getFullYear() + '-' +\n    //     String(now.getMonth() + 1).padStart(2, '0') + '-' +\n    //     String(now.getDate()).padStart(2, '0') + ' ' +\n    //     String(now.getHours()).padStart(2, '0') + ':' +\n    //     String(now.getMinutes()).padStart(2, '0') + ':' +\n    //     String(now.getSeconds()).padStart(2, '0');\n\n\n    for (let i = 0; i < changed.length; i++) {\n        let c = changed[i];\n         \n            msgs.push({\n                payload: \"SP_Insert_HourlyProduction\",\n                queryParams: [\n                    { name: \"Name\", value: c.name },\n                    { name: \"Production_Count\", value: c.value },\n                    { name: \"Timestamp\", value: now }\n                ],\n                queryMode: \"execute\"\n            });\n      // console.log(msgs);\n    }\n\n    return [msgs];\n} else {\n    return null;\n}\n",
-        "outputs": 1,
-        "timeout": "120",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 180,
-        "wires": [
-            [
-                "3e053b2c09523811"
-            ]
-        ]
-    },
-    {
-        "id": "3e053b2c09523811",
-        "type": "MSSQL",
-        "z": "77b8f05fc0c712f8",
-        "mssqlCN": "78afed567ef169d7",
-        "name": "MSSQL",
-        "outField": "payload",
-        "returnType": "0",
-        "throwErrors": "1",
-        "query": "",
-        "modeOpt": "",
-        "modeOptType": "execute",
-        "queryOpt": "payload",
-        "queryOptType": "msg",
-        "paramsOpt": "queryParams",
-        "paramsOptType": "msg",
-        "rows": "rows",
-        "rowsType": "msg",
-        "parseMustache": true,
-        "params": [],
-        "x": 460,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d00de496a9062d62",
-        "type": "catch",
-        "z": "77b8f05fc0c712f8",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 260,
-        "wires": [
-            [
-                "d028cbe47d2f6524"
-            ]
-        ]
-    },
-    {
-        "id": "d028cbe47d2f6524",
-        "type": "function",
-        "z": "77b8f05fc0c712f8",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 260,
-        "wires": [
-            [
-                "acc3a7f7277f2523"
-            ]
-        ]
-    },
-    {
-        "id": "acc3a7f7277f2523",
-        "type": "file",
-        "z": "77b8f05fc0c712f8",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\HP_Insert_Update.txt",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 580,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e754287c373e329f",
-        "type": "debug",
-        "z": "77b8f05fc0c712f8",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 520,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "673eb79b18be7e2d",
-        "type": "inject",
-        "z": "77b8f05fc0c712f8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"01_RH\":\"20\",\"01_LH\":\"30\"}",
-        "payloadType": "json",
-        "x": 110,
-        "y": 60,
-        "wires": [
-            [
-                "784091927262c47e"
-            ]
-        ]
-    },
-    {
-        "id": "685bb85616311404",
-        "type": "inject",
-        "z": "77b8f05fc0c712f8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"01_RH\":\"10\",\"01_LH\":\"20\"}",
-        "payloadType": "json",
-        "x": 90,
-        "y": 100,
-        "wires": [
-            [
-                "784091927262c47e"
-            ]
         ]
     },
     {
@@ -10135,74 +8054,6 @@
         ]
     },
     {
-        "id": "42bc434680540376",
-        "type": "file",
-        "z": "9dab2313a2f19c0b",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\Line_Layout.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 500,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "42e29c5abd30121c",
-        "type": "function",
-        "z": "9dab2313a2f19c0b",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 260,
-        "y": 320,
-        "wires": [
-            [
-                "42bc434680540376"
-            ]
-        ]
-    },
-    {
-        "id": "8c600e6d30733480",
-        "type": "catch",
-        "z": "9dab2313a2f19c0b",
-        "name": "",
-        "scope": "group",
-        "uncaught": true,
-        "x": 70,
-        "y": 320,
-        "wires": [
-            [
-                "42e29c5abd30121c"
-            ]
-        ]
-    },
-    {
-        "id": "2c7a28d0a5edddca",
-        "type": "debug",
-        "z": "9dab2313a2f19c0b",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 620,
-        "y": 80,
-        "wires": []
-    },
-    {
         "id": "e67acb59bb0caf1d",
         "type": "status",
         "z": "502c7cc05ab695d2",
@@ -10256,60 +8107,6 @@
         ]
     },
     {
-        "id": "60780780c64cc66e",
-        "type": "catch",
-        "z": "502c7cc05ab695d2",
-        "name": "",
-        "scope": [
-            "01e778e4a88376b9"
-        ],
-        "uncaught": false,
-        "x": 190,
-        "y": 200,
-        "wires": [
-            [
-                "8d66ee34c8417fd3"
-            ]
-        ]
-    },
-    {
-        "id": "8d66ee34c8417fd3",
-        "type": "function",
-        "z": "502c7cc05ab695d2",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 460,
-        "y": 200,
-        "wires": [
-            [
-                "fdd2dae9dc14dc0e"
-            ]
-        ]
-    },
-    {
-        "id": "fdd2dae9dc14dc0e",
-        "type": "file",
-        "z": "502c7cc05ab695d2",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\PLC_Status.txt",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 740,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "70a844866d4e64b1",
         "type": "s7 in",
         "z": "502c7cc05ab695d2",
@@ -10319,6 +8116,61 @@
         "name": "PLC Status",
         "x": 190,
         "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8d343bd12d7946c",
+        "type": "ping",
+        "z": "502c7cc05ab695d2",
+        "protocol": "IPv4",
+        "mode": "timed",
+        "name": "SQL_Ping",
+        "host": "192.168.1.63",
+        "timer": "5",
+        "inputs": 0,
+        "x": 220,
+        "y": 220,
+        "wires": [
+            [
+                "eb3cc60e130bf5fd"
+            ]
+        ]
+    },
+    {
+        "id": "eb3cc60e130bf5fd",
+        "type": "function",
+        "z": "502c7cc05ab695d2",
+        "name": "function 2",
+        "func": "let timestamp = new Date().toLocaleString();\n\nif (msg.payload=== false) {\n\n    msg.payload = `[${timestamp}] Status: ${msg.payload}`;\n\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "5d2824328489a927"
+            ]
+        ]
+    },
+    {
+        "id": "5d2824328489a927",
+        "type": "file",
+        "z": "502c7cc05ab695d2",
+        "name": "",
+        "filename": "D:\\JBM\\Log\\SQL_Status.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 640,
+        "y": 220,
         "wires": [
             []
         ]
@@ -10387,58 +8239,6 @@
         ]
     },
     {
-        "id": "5f12a227200c4ba7",
-        "type": "file",
-        "z": "047a2ed188a4b718",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\Robot_health_Status.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 530,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c669e5a84ee67c89",
-        "type": "function",
-        "z": "047a2ed188a4b718",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 260,
-        "y": 240,
-        "wires": [
-            [
-                "5f12a227200c4ba7"
-            ]
-        ]
-    },
-    {
-        "id": "44766b6a65080c18",
-        "type": "catch",
-        "z": "047a2ed188a4b718",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 70,
-        "y": 240,
-        "wires": [
-            [
-                "c669e5a84ee67c89"
-            ]
-        ]
-    },
-    {
         "id": "10806e42120858f9",
         "type": "inject",
         "z": "047a2ed188a4b718",
@@ -10462,22 +8262,6 @@
         ]
     },
     {
-        "id": "315ef47236e744bb",
-        "type": "debug",
-        "z": "047a2ed188a4b718",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 480,
-        "y": 60,
-        "wires": []
-    },
-    {
         "id": "76ff43ce64cdac1e",
         "type": "inject",
         "z": "047a2ed188a4b718",
@@ -10498,483 +8282,6 @@
         "y": 100,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "8477498de13bfc7a",
-        "type": "s7 in",
-        "z": "a1e07c2d53e4c8ee",
-        "endpoint": "b2b6a7e4789a4f8e",
-        "mode": "all",
-        "variable": "",
-        "diff": true,
-        "name": "Shift Production",
-        "x": 160,
-        "y": 260,
-        "wires": [
-            [
-                "349d171e0be9b349",
-                "15dd4348d34556c9",
-                "f981d84456b2f761"
-            ]
-        ]
-    },
-    {
-        "id": "519c5a1eac7e44e3",
-        "type": "catch",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 170,
-        "y": 580,
-        "wires": [
-            [
-                "0f1885f3c2a2ba7a"
-            ]
-        ]
-    },
-    {
-        "id": "0f1885f3c2a2ba7a",
-        "type": "function",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 580,
-        "wires": [
-            [
-                "767599ffc87e6df3"
-            ]
-        ]
-    },
-    {
-        "id": "767599ffc87e6df3",
-        "type": "file",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\Shift_Production_Insert.txt",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 690,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1f55c2e7d849ae91",
-        "type": "inject",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Test Shift A Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"SHIFT_A\":true,\"TARGETA\":100,\"ACTUALLHA\":101,\"ACTUALRHA\":102,\"Actual_CountA\":203,\"Availability\":80,\"Performance\":80,\"Quality\":80,\"OEE\":80}",
-        "payloadType": "json",
-        "x": 140,
-        "y": 320,
-        "wires": [
-            [
-                "349d171e0be9b349"
-            ]
-        ]
-    },
-    {
-        "id": "349d171e0be9b349",
-        "type": "rbe",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Shift A",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload.SHIFT_A",
-        "topi": "topic",
-        "x": 390,
-        "y": 280,
-        "wires": [
-            [
-                "753ae9414ad99a7c",
-                "ba1fbfd806f60fab"
-            ]
-        ]
-    },
-    {
-        "id": "15dd4348d34556c9",
-        "type": "rbe",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Shift B",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload.SHIFT_B",
-        "topi": "topic",
-        "x": 390,
-        "y": 320,
-        "wires": [
-            [
-                "6d65d443228d2183",
-                "ba1fbfd806f60fab"
-            ]
-        ]
-    },
-    {
-        "id": "f981d84456b2f761",
-        "type": "rbe",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Shift C",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload.SHIFT_C",
-        "topi": "topic",
-        "x": 390,
-        "y": 360,
-        "wires": [
-            [
-                "8c23ce57eb8056fa",
-                "ba1fbfd806f60fab"
-            ]
-        ]
-    },
-    {
-        "id": "b94a691b159d511a",
-        "type": "inject",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Test Shift A Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"SHIFT_A\":false,\"TARGETA\":120,\"ACTUALLHA\":58,\"ACTUALRHA\":59,\"Actual_CountA\":117,\"Availability\":80,\"Performance\":80,\"Quality\":80,\"OEE\":80}",
-        "payloadType": "json",
-        "x": 140,
-        "y": 360,
-        "wires": [
-            [
-                "349d171e0be9b349"
-            ]
-        ]
-    },
-    {
-        "id": "90fd55a39f29f4f7",
-        "type": "inject",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Test Shift C Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"SHIFT_C\":true,\"TARGETC\":400,\"ACTUALLHC\":401,\"ACTUALRHC\":402,\"Actual_CountC\":803}",
-        "payloadType": "json",
-        "x": 160,
-        "y": 480,
-        "wires": [
-            [
-                "f981d84456b2f761"
-            ]
-        ]
-    },
-    {
-        "id": "edcd902fb8ba70ce",
-        "type": "inject",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Test Shift C Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"SHIFT_C\":false,\"TARGETC\":120,\"ACTUALLHC\":58,\"ACTUALRHC\":59,\"Actual_CountC\":117}",
-        "payloadType": "json",
-        "x": 180,
-        "y": 520,
-        "wires": [
-            [
-                "f981d84456b2f761"
-            ]
-        ]
-    },
-    {
-        "id": "b402b412d968e402",
-        "type": "inject",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Test Shift B Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"SHIFT_B\":true,\"TARGETB\":300,\"ACTUALLHB\":301,\"ACTUALRHB\":302,\"Actual_CountB\":603}",
-        "payloadType": "json",
-        "x": 160,
-        "y": 400,
-        "wires": [
-            [
-                "15dd4348d34556c9"
-            ]
-        ]
-    },
-    {
-        "id": "2cb4294cf5cd179e",
-        "type": "inject",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Test Shift B Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"SHIFT_B\":false,\"TARGETB\":120,\"ACTUALLHB\":58,\"ACTUALRHB\":59,\"Actual_CountB\":117}",
-        "payloadType": "json",
-        "x": 140,
-        "y": 440,
-        "wires": [
-            [
-                "15dd4348d34556c9"
-            ]
-        ]
-    },
-    {
-        "id": "753ae9414ad99a7c",
-        "type": "function",
-        "z": "a1e07c2d53e4c8ee",
-        "name": " Shift Production",
-        "func": "let previous = flow.get('previousTags_A') || {};\nlet data = msg.payload;\n\n// Update stored state\nflow.set('previousTags_A', data);\n\n\n\nif (data.SHIFT_A === false && previous.SHIFT_A===true )\n{\nlet shift = \"\";\nlet params = {\n    Target_Count: 0,\n    Actual_Count: 0,\n    Actual_CountLH: 0,\n    Actual_CountRH: 0,\n};\n\n    params.Target_Count = data.TARGETA || 0;\n    params.Actual_CountLH = data.ACTUALLHA || 0;\n     params.Actual_CountRH = data.ACTUALRHA || 0;\n    params.Actual_Count = data.Actual_CountA || 0;\n   shift = \"A\";\n// Output for MSSQL\n    let msgShift = {\n        query: \"sp_USP_Shift_Production\",\n        queryParams: [\n            { name: \"Target_Count\", value: params.Target_Count },\n            { name: \"Actual_Count\", value: params.Actual_Count },\n            { name: \"Actual_CountLH\", value: params.Actual_CountLH },\n            { name: \"Actual_CountRH\", value: params.Actual_CountRH },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n   \n    // Return array matching the outputs\n    return [msgShift];\n\n}\n\nreturn null;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 580,
-        "y": 280,
-        "wires": [
-            [
-                "bc4b81756d8a2703"
-            ]
-        ]
-    },
-    {
-        "id": "6d65d443228d2183",
-        "type": "function",
-        "z": "a1e07c2d53e4c8ee",
-        "name": " Shift Production",
-        "func": "let previous = flow.get('previousTags_B') || {};\nlet data = msg.payload;\n\n// Update stored state\nflow.set('previousTags_B', data);\n\n\n\nif (data.SHIFT_B === false && previous.SHIFT_B === true)\n{\nlet shift = \"\";\nlet params = {\n    Target_Count: 0,\n    Actual_Count :0,\n    Actual_CountLH: 0,\n    Actual_CountRH: 0,\n};\n\n     shift = \"B\";\n     params.Target_Count = data.TARGETB || 0;\n     params.Actual_CountLH = data.ACTUALLHB || 0;\n     params.Actual_CountRH = data.ACTUALRHB || 0;\n     params.Actual_Count = data.Actual_CountB || 0;\n\nnode.send({\n    query: \"sp_USP_Shift_Production\",\n    queryParams: [\n        { name: \"Target_Count\", value: params.Target_Count },\n{ name: \"Actual_Count\", value: params.Actual_Count },\n        { name: \"Actual_CountLH\", value: params.Actual_CountLH },\n        { name: \"Actual_CountRH\", value: params.Actual_CountRH },\n        { name: \"Shift\", value: shift },\n        { name: \"TimeStamp\", value: new Date().toISOString() } // or pass actual shift end time if available\n    ],\n    queryMode: \"execute\"\n});\n\nreturn null;\n}\n",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 580,
-        "y": 320,
-        "wires": [
-            [
-                "bc4b81756d8a2703"
-            ]
-        ]
-    },
-    {
-        "id": "8c23ce57eb8056fa",
-        "type": "function",
-        "z": "a1e07c2d53e4c8ee",
-        "name": " Shift Production",
-        "func": "let previous = flow.get('previousTags_C') || {};\nlet data = msg.payload;\n\n// Update stored state\nflow.set('previousTags_C', data);\n\n\n\nif (data.SHIFT_C === false && previous.SHIFT_C === true) {\nlet shift = \"\";\nlet params = {\n    Target_Count: 0,\n    Actual_Count :0,\n    Actual_CountLH: 0,\n    Actual_CountRH: 0,\n};\n     shift = \"C\";\n     params.Target_Count = data.TARGETC || 0;\n     params.Actual_CountLH = data.ACTUALLHC || 0;\n     params.Actual_CountRH = data.ACTUALRHC || 0;\n     params.Actual_Count = data.Actual_CountC || 0;\n\n// Output for MSSQL\nnode.send({\n    query: \"sp_USP_Shift_Production\",\n    queryParams: [\n        { name: \"Target_Count\", value: params.Target_Count },\n        { name: \"Actual_Count\", value: params.Actual_Count },\n        { name: \"Actual_CountLH\", value: params.Actual_CountLH },\n        { name: \"Actual_CountRH\", value: params.Actual_CountRH },\n        { name: \"Shift\", value: shift },\n        { name: \"TimeStamp\", value: new Date().toISOString() } // or pass actual shift end time if available\n    ],\n    queryMode: \"execute\"\n});\n\nreturn null;\n}\n",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 580,
-        "y": 360,
-        "wires": [
-            [
-                "bc4b81756d8a2703"
-            ]
-        ]
-    },
-    {
-        "id": "bc4b81756d8a2703",
-        "type": "MSSQL",
-        "z": "a1e07c2d53e4c8ee",
-        "mssqlCN": "ab6a360aeab04103",
-        "name": "MSSQL",
-        "outField": "payload",
-        "returnType": 0,
-        "throwErrors": 1,
-        "query": "",
-        "modeOpt": "",
-        "modeOptType": "execute",
-        "queryOpt": "query",
-        "queryOptType": "msg",
-        "paramsOpt": "queryParams",
-        "paramsOptType": "msg",
-        "rows": "rows",
-        "rowsType": "msg",
-        "parseMustache": true,
-        "params": [],
-        "x": 780,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2ef5fa6b89b34a16",
-        "type": "debug",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "debug 8",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 560,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "c579134451554d8c",
-        "type": "debug",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "debug 9",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 760,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "8c38735c212bf91e",
-        "type": "debug",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "debug 10",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1020,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "516b0f5c52f1c703",
-        "type": "function",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "function 6",
-        "func": "node.warn(flow.get('previousTags_B'));\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 800,
-        "y": 180,
-        "wires": [
-            [
-                "8c38735c212bf91e"
-            ]
-        ]
-    },
-    {
-        "id": "4fb4f218bd7d5661",
-        "type": "inject",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "Test",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 610,
-        "y": 200,
-        "wires": [
-            [
-                "516b0f5c52f1c703"
-            ]
-        ]
-    },
-    {
-        "id": "ba1fbfd806f60fab",
-        "type": "function",
-        "z": "a1e07c2d53e4c8ee",
-        "name": "function 5",
-        "func": "let data=msg.payload;\n\nlet shift='';\nif(msg.payload.SHIFT_A==false)\n{\nshift='A'\n}\nelse if (msg.payload.SHIFT_B == false)\n{\n    shift = 'B'\n}\nelse if (msg.payload.SHIFT_C == false){\n    shift = 'C'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"Availability\", value: data.Availability },\n            { name: \"Performance\", value: data.Performance },\n            { name: \"Quality\", value: data.Quality },\n            { name: \"OEE\", value: data.OEE },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 580,
-        "y": 420,
-        "wires": [
-            [
-                "bc4b81756d8a2703"
-            ]
         ]
     },
     {
@@ -11015,58 +8322,6 @@
             [
                 "f60dcf8f8d51c628"
             ]
-        ]
-    },
-    {
-        "id": "49dbbe0e8f650b6c",
-        "type": "catch",
-        "z": "69c80b9824af6584",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 110,
-        "y": 380,
-        "wires": [
-            [
-                "40748b0d2a2bc553"
-            ]
-        ]
-    },
-    {
-        "id": "40748b0d2a2bc553",
-        "type": "function",
-        "z": "69c80b9824af6584",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 380,
-        "wires": [
-            [
-                "08b1912e961b4b88"
-            ]
-        ]
-    },
-    {
-        "id": "08b1912e961b4b88",
-        "type": "file",
-        "z": "69c80b9824af6584",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\Spot_Count.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": false,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 560,
-        "y": 380,
-        "wires": [
-            []
         ]
     },
     {
@@ -11138,22 +8393,6 @@
                 "64b7817849b9704c"
             ]
         ]
-    },
-    {
-        "id": "d60693068c3492d0",
-        "type": "debug",
-        "z": "69c80b9824af6584",
-        "name": "debug 6",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 860,
-        "y": 80,
-        "wires": []
     },
     {
         "id": "1a8c0ecd51390be7",
@@ -11310,7 +8549,7 @@
         "variable": "DB1,REAL0",
         "diff": true,
         "name": "Target Production",
-        "x": 140,
+        "x": 120,
         "y": 160,
         "wires": [
             [
@@ -11323,7 +8562,7 @@
         "type": "function",
         "z": "5872bea43d03ee26",
         "name": "InsertonTime",
-        "func": "// Get current month and year key (e.g., 072025)\n//let now = new Date();\n//let key = String(now.getMonth() + 1).padStart(2, '0') + String(now.getFullYear());\nlet now = new Date();\n\nlet Newdate =\n  String(now.getDate()).padStart(2, '0') +          // DD\n  String(now.getMonth() + 1).padStart(2, '0') +     // MM\n  String(now.getFullYear());\n// Get tag values (replace with correct tag names)\nnode.warn(msg.payload.Monthly_Achieved);\n\nlet monthlyTarget = msg.payload.Monthly_Target || 0;\nlet monthlyActual = msg.payload.Monthly_Achieved || 0;\nlet ShiftA = msg.payload.ShiftA_Target || 0;\nlet ShiftB = msg.payload.ShiftB_Target || 0;\nlet ShiftC = msg.payload.ShiftC_Target || 0;\nlet DailyTarget=ShiftA+ShiftB+ShiftC;\nlet ShiftAchived = msg.payload.ShiftA_Achieved || 0;\nlet ShiftBAchived = msg.payload.ShiftB_Achieved || 0;\nlet ShiftCAchived = msg.payload.ShiftC_Achieved || 0;\nlet DailyAchived=ShiftAchived+ShiftBAchived+ShiftCAchived;\n// Prepare SQL message for stored procedure\nlet sqlMsg = {\n    payload: \"USP_InsertOrUpdate_Target_Production\",\n    queryParams: [\n        { name: \"Month\", value: parseInt(Newdate) },\n        { name: \"Monthly_Target\", value: monthlyTarget },\n        { name: \"Monthly_Actual\", value: monthlyActual },\n         { name: \"Daily_Target\", value: DailyTarget },\n         { name: \"Daily_Achieved\", value: DailyAchived },\n          { name: \"TimeStamp\", value:new Date().toISOString() }\n    ],\n    queryMode: \"execute\"\n};\n\nreturn [sqlMsg];\n",
+        "func": "\n\nlet moment = global.get('moment');\n\n// Convert UTC to IST\nlet now = moment.utc(new Date()).tz(\"Asia/Kolkata\");\n\n//let now = new Date().toISOString();\n\nlet hr = now.hour();\nnode.warn(hr);\nif (hr < 8) {\n  now = now.subtract(1, 'days');\n\n}\n//node.warn((now.format(\"YYYY-MM-DD HH:mm:ss\")));\n\nlet Newdate =\n  String(now.date()).padStart(2, '0') +          // DD\n  String(now.month() + 1).padStart(2, '0') +     // MM\n  String(now.year());\n// Get tag values (replace with correct tag names)\n\n\nlet monthlyTarget = msg.payload.Monthly_Target || 0;\nlet monthlyActual = msg.payload.Monthly_Achieved || 0;\nlet dailyTarget = msg.payload.DailyTarget || 0;\nlet dailyAchive = msg.payload.DailyAchived || 0;\n\nlet ALHD = msg.payload.A_LHD || 0;\nlet BLHD = msg.payload.B_LHD || 0;\nlet CLHD = msg.payload.C_LHD || 0;\nlet LHD = ALHD + BLHD + CLHD;\n\nlet ARHD = msg.payload.A_RHD || 0;\nlet BRHD = msg.payload.B_RHD || 0;\nlet CRHD = msg.payload.C_RHD || 0;\nlet RHD = ARHD + BRHD + CRHD;\n\n// Prepare SQL message for stored procedure\nlet sqlMsg = {\n    payload: \"USP_InsertOrUpdate_Target_Production\",\n    queryParams: [\n        { name: \"Month\", value: parseInt(Newdate) },\n        { name: \"Monthly_Target\", value: monthlyTarget },\n        { name: \"Monthly_Actual\", value: monthlyActual },\n      { name: \"Daily_Target\", value: dailyTarget },\n      { name: \"Daily_Achieved\", value: dailyAchive },\n      { name: \"LHD\", value: LHD },\n      { name: \"RHD\", value: RHD },\n      { name: \"TimeStamp\", value: now.format(\"YYYY-MM-DD HH:mm:ss\") }\n    ],\n    queryMode: \"execute\"\n};\n\nreturn [sqlMsg];\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -11334,110 +8573,7 @@
         "y": 160,
         "wires": [
             [
-                "665564836ef04393"
-            ]
-        ]
-    },
-    {
-        "id": "665564836ef04393",
-        "type": "MSSQL",
-        "z": "5872bea43d03ee26",
-        "mssqlCN": "8c806a2f4b8e42f1",
-        "name": "Monthly Target",
-        "outField": "payload",
-        "returnType": 0,
-        "throwErrors": 1,
-        "query": "",
-        "modeOpt": "",
-        "modeOptType": "execute",
-        "queryOpt": "payload",
-        "queryOptType": "msg",
-        "paramsOpt": "queryParams",
-        "paramsOptType": "msg",
-        "rows": "rows",
-        "rowsType": "msg",
-        "parseMustache": true,
-        "params": [],
-        "x": 500,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fa85df4d6ecd0f61",
-        "type": "catch",
-        "z": "5872bea43d03ee26",
-        "name": "",
-        "scope": "group",
-        "uncaught": true,
-        "x": 75,
-        "y": 223.00000762939453,
-        "wires": [
-            [
-                "0f9740da1a78591c"
-            ]
-        ]
-    },
-    {
-        "id": "0f9740da1a78591c",
-        "type": "function",
-        "z": "5872bea43d03ee26",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 285,
-        "y": 223.00000762939453,
-        "wires": [
-            [
-                "0da72c987b93ed32"
-            ]
-        ]
-    },
-    {
-        "id": "0da72c987b93ed32",
-        "type": "file",
-        "z": "5872bea43d03ee26",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\Target_Daily_Monthly.txt",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 570,
-        "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2049f51dcd2989c3",
-        "type": "inject",
-        "z": "5872bea43d03ee26",
-        "name": "Test Inject - Target Data",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"Monthly_Target\":50012,\"Monthly_Achieved\":3122,\"ShiftA_Target\":300,\"ShiftB_Target\":200,\"ShiftC_Target\":100,\"ShiftA_Achieved\":100,\"ShiftB_Achieved\":100,\"ShiftC_Achieved\":100}",
-        "payloadType": "json",
-        "x": 160,
-        "y": 80,
-        "wires": [
-            [
-                "6bb08825d1ccc69b"
+                "93b69f51daf2bb49"
             ]
         ]
     },
@@ -11456,7 +8592,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "{\"Monthly_Target\":5000,\"Monthly_Achieved\":3122,\"ShiftA_Target\":300,\"ShiftB_Target\":200,\"ShiftC_Target\":100,\"ShiftA_Achieved\":200,\"ShiftB_Achieved\":200,\"ShiftC_Achieved\":50}",
+        "payload": "{\"Monthly_Target\":10,\"Monthly_Achieved\":50,\"DailyTarget\":10,\"DailyAchived\":5,\"A_LHD\":2,\"B_LHD\":2,\"C_LHD\":2,\"A_RHD\":2,\"B_RHD\":2,\"C_RHD\":2}",
         "payloadType": "json",
         "x": 160,
         "y": 40,
@@ -11464,6 +8600,57 @@
             [
                 "6bb08825d1ccc69b"
             ]
+        ]
+    },
+    {
+        "id": "8f89432603c3df59",
+        "type": "inject",
+        "z": "5872bea43d03ee26",
+        "name": "Test Inject - Target Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"Monthly_Target\":100,\"Monthly_Achieved\":50,\"DailyTarget\":10,\"DailyAchived\":5,\"A_LHD\":1,\"B_LHD\":1,\"C_LHD\":1,\"A_RHD\":1,\"B_RHD\":1,\"C_RHD\":1}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "6bb08825d1ccc69b"
+            ]
+        ]
+    },
+    {
+        "id": "93b69f51daf2bb49",
+        "type": "MSSQL",
+        "z": "5872bea43d03ee26",
+        "mssqlCN": "b10a3e4948cfa0e9",
+        "name": "SQL",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "",
+        "modeOpt": "",
+        "modeOptType": "execute",
+        "queryOpt": "payload",
+        "queryOptType": "msg",
+        "paramsOpt": "queryParams",
+        "paramsOptType": "msg",
+        "rows": "rows",
+        "rowsType": "msg",
+        "parseMustache": true,
+        "params": [],
+        "x": 510,
+        "y": 140,
+        "wires": [
+            []
         ]
     },
     {
@@ -11504,58 +8691,6 @@
         ]
     },
     {
-        "id": "db8621b7774af121",
-        "type": "catch",
-        "z": "b225c926a1394a08",
-        "name": "",
-        "scope": "group",
-        "uncaught": false,
-        "x": 170,
-        "y": 240,
-        "wires": [
-            [
-                "2104cae33c39f48c"
-            ]
-        ]
-    },
-    {
-        "id": "2104cae33c39f48c",
-        "type": "function",
-        "z": "b225c926a1394a08",
-        "name": "ERROR FUNCTION",
-        "func": "msg.payload = `[${new Date().toLocaleString()}] ERROR: ${msg.error.message}\\n`;\nreturn msg;\n\n// function formatDate(date) {\n//     let year = date.getFullYear();\n//     let month = String(date.getMonth() + 1).padStart(2, '0');\n//     let day = String(date.getDate()).padStart(2, '0');\n//     let hours = String(date.getHours()).padStart(2, '0');\n//     let minutes = String(date.getMinutes()).padStart(2, '0');\n//     let seconds = String(date.getSeconds()).padStart(2, '0');\n\n//     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;\n// }\n\n// let now = new Date();\n// const currentDate = formatDate(now);\n\n// if (msg.error && msg.error.message) {\n//     let errorMessage = msg.error.message;\n\n//     if (errorMessage.includes(\"EHOSTUNREACH\") || errorMessage.includes(\"ECONNREFUSED\")) {\n//         msg.payload = `[${currentDate}] OPCUA CONNECTION LOST: ${errorMessage}\\\\n`;\n//     } else {\n//         msg.payload = `[${currentDate}] ERROR: ${errorMessage}\\\\n`;\n//     }\n// } else {\n//     msg.payload = `[${currentDate}] UNKNOWN ERROR OCCURRED\\\\n`;\n// }\n\n// return msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 240,
-        "wires": [
-            [
-                "e329418541afd4a4"
-            ]
-        ]
-    },
-    {
-        "id": "e329418541afd4a4",
-        "type": "file",
-        "z": "b225c926a1394a08",
-        "name": "",
-        "filename": "D:\\JBM\\Log\\Tip_Change_Count.txt",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 640,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "d2e1a69d940d76cf",
         "type": "inject",
         "z": "b225c926a1394a08",
@@ -11579,22 +8714,6 @@
                 "3ace388f45e1996f"
             ]
         ]
-    },
-    {
-        "id": "15dc27dddbed0564",
-        "type": "debug",
-        "z": "b225c926a1394a08",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 520,
-        "y": 160,
-        "wires": []
     },
     {
         "id": "d3e9118137a8bcfc",
@@ -11645,6 +8764,711 @@
         "y": 60,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "56dc7a472d4d722f",
+        "type": "s7 in",
+        "z": "6edc01fa21ac87f6",
+        "endpoint": "f9ebf099b35c43d7",
+        "mode": "all",
+        "variable": "",
+        "diff": true,
+        "name": "Shift Production",
+        "x": 120,
+        "y": 180,
+        "wires": [
+            [
+                "57aaa680e21ef6cb",
+                "07c2a8b738263081",
+                "834cb17cce05a5f5"
+            ]
+        ]
+    },
+    {
+        "id": "95e5a0d6deb280c1",
+        "type": "inject",
+        "z": "6edc01fa21ac87f6",
+        "name": "Test Shift A Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"SHIFTATigger\":true,\"SHIFTBTigger\":10,\"SHIFTC Tigger\":10,\"TargetA\":10,\"TargetB\":10,\"TargetC\":10,\"ActualA\":10,\"ActualB\":10,\"ActualC\":10,\"ShiftAOK\":10,\"ShiftBOK\":10,\"ShiftCOK\":10,\"ShiftANOK\":10,\"ShiftBNOK\":10,\"ShiftCNOK\":10,\"ShiftACTWithin\":10,\"ShiftBCTWithin\":10,\"ShiftCCTWithin\":10,\"ShiftACTExceeded\":10,\"ShiftBCTExceeded\":10,\"ShiftCCTExceeded\":10,\"ShiftADowntime\":10,\"ShiftBDowntime\":10,\"ShiftCDowntime\":10,\"ShiftAAvailability\":10,\"ShiftBAvailability\":10,\"ShiftCAvailability\":10,\"ShiftAPerformance\":10,\"ShiftBPerformance\":10,\"ShiftCPerformance\":10,\"ShiftAQuality\":10,\"ShiftBQuality\":10,\"ShiftCQuality\":10,\"ShiftAOEE\":10,\"ShiftAPlanProductionCount\":10,\"ShiftCPlanProductionCount\":10,\"SHIFTADeltaProductionCount\":10,\"SHIFTBDeltaProductionCount\":10,\"SHIFTCDeltaProductionCount\":10}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 240,
+        "wires": [
+            [
+                "57aaa680e21ef6cb"
+            ]
+        ]
+    },
+    {
+        "id": "57aaa680e21ef6cb",
+        "type": "rbe",
+        "z": "6edc01fa21ac87f6",
+        "name": "Shift A",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload.SHIFTATigger",
+        "topi": "topic",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "610012e418cd3db5",
+                "d0dc1dc7b59b7f34"
+            ]
+        ]
+    },
+    {
+        "id": "07c2a8b738263081",
+        "type": "rbe",
+        "z": "6edc01fa21ac87f6",
+        "name": "Shift B",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload.SHIFTBTigger",
+        "topi": "topic",
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "c22ea1310a867de7",
+                "232a35242d581c81"
+            ]
+        ]
+    },
+    {
+        "id": "834cb17cce05a5f5",
+        "type": "rbe",
+        "z": "6edc01fa21ac87f6",
+        "name": "Shift C",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload.SHIFTCTigger",
+        "topi": "topic",
+        "x": 350,
+        "y": 280,
+        "wires": [
+            [
+                "fff96511da873915",
+                "ea6442ac02d781c6"
+            ]
+        ]
+    },
+    {
+        "id": "72d1d278bed640f3",
+        "type": "inject",
+        "z": "6edc01fa21ac87f6",
+        "name": "Test Shift A Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"SHIFTATigger\":false,\"SHIFTBTigger\":20,\"SHIFTC Tigger\":20,\"TargetA\":20,\"TargetB\":20,\"TargetC\":20,\"ActualA\":20,\"ActualB\":20,\"ActualC\":20,\"ShiftAOK\":20,\"ShiftBOK\":20,\"ShiftCOK\":20,\"ShiftANOK\":20,\"ShiftBNOK\":20,\"ShiftCNOK\":20,\"ShiftACTWithin\":20,\"ShiftBCTWithin\":20,\"ShiftCCTWithin\":20,\"ShiftACTExceeded\":20,\"ShiftBCTExceeded\":20,\"ShiftCCTExceeded\":20,\"ShiftADowntime\":20,\"ShiftBDowntime\":20,\"ShiftCDowntime\":20,\"ShiftAAvailability\":20,\"ShiftBAvailability\":20,\"ShiftCAvailability\":20,\"ShiftAPerformance\":20,\"ShiftBPerformance\":20,\"ShiftCPerformance\":20,\"ShiftAQuality\":20,\"ShiftBQuality\":20,\"ShiftCQuality\":20,\"ShiftAOEE\":20,\"ShiftAPlanProductionCount\":20,\"ShiftCPlanProductionCount\":20,\"SHIFTADeltaProductionCount\":20,\"SHIFTBDeltaProductionCount\":20,\"SHIFTCDeltaProductionCount\":20}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "57aaa680e21ef6cb"
+            ]
+        ]
+    },
+    {
+        "id": "a472967905a7f08f",
+        "type": "inject",
+        "z": "6edc01fa21ac87f6",
+        "name": "Test Shift C Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"SHIFTATigger\":80,\"SHIFTBTigger\":80,\"SHIFTCTigger\":true,\"TargetA\":80,\"TargetB\":80,\"TargetC\":80,\"ActualA\":80,\"ActualB\":80,\"ActualC\":80,\"ShiftAOK\":80,\"ShiftBOK\":80,\"ShiftCOK\":80,\"ShiftANOK\":80,\"ShiftBNOK\":80,\"ShiftCNOK\":80,\"ShiftACTWithin\":80,\"ShiftBCTWithin\":80,\"ShiftCCTWithin\":80,\"ShiftACTExceeded\":80,\"ShiftBCTExceeded\":80,\"ShiftCCTExceeded\":80,\"ShiftADowntime\":80,\"ShiftBDowntime\":80,\"ShiftCDowntime\":80,\"ShiftAAvailability\":80,\"ShiftBAvailability\":80,\"ShiftCAvailability\":80,\"ShiftAPerformance\":80,\"ShiftBPerformance\":80,\"ShiftCPerformance\":80,\"ShiftAQuality\":80,\"ShiftBQuality\":80,\"ShiftCQuality\":80,\"ShiftCOEE\":80,\"ShiftAPlanProductionCount\":80,\"ShiftCPlanProductionCount\":80,\"SHIFTADeltaProductionCount\":80,\"SHIFTBDeltaProductionCount\":80,\"SHIFTCDeltaProductionCount\":80}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "834cb17cce05a5f5"
+            ]
+        ]
+    },
+    {
+        "id": "56cd96f86046358c",
+        "type": "inject",
+        "z": "6edc01fa21ac87f6",
+        "name": "Test Shift C Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"SHIFTATigger\":90,\"SHIFTBTigger\":90,\"SHIFTCTigger\":false,\"TargetA\":90,\"TargetB\":90,\"TargetC\":90,\"ActualA\":90,\"ActualB\":90,\"ActualC\":90,\"ShiftAOK\":90,\"ShiftBOK\":90,\"ShiftCOK\":90,\"ShiftANOK\":90,\"ShiftBNOK\":90,\"ShiftCNOK\":90,\"ShiftACTWithin\":90,\"ShiftBCTWithin\":90,\"ShiftCCTWithin\":90,\"ShiftACTExceeded\":90,\"ShiftBCTExceeded\":90,\"ShiftCCTExceeded\":90,\"ShiftADowntime\":90,\"ShiftBDowntime\":90,\"ShiftCDowntime\":90,\"ShiftAAvailability\":90,\"ShiftBAvailability\":90,\"ShiftCAvailability\":90,\"ShiftAPerformance\":90,\"ShiftBPerformance\":90,\"ShiftCPerformance\":90,\"ShiftAQuality\":90,\"ShiftBQuality\":90,\"ShiftCQuality\":90,\"ShiftCOEE\":90,\"ShiftAPlanProductionCount\":90,\"ShiftCPlanProductionCount\":90,\"SHIFTADeltaProductionCount\":90,\"SHIFTBDeltaProductionCount\":90,\"SHIFTCDeltaProductionCount\":90}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "834cb17cce05a5f5"
+            ]
+        ]
+    },
+    {
+        "id": "a27e822c7cf61f59",
+        "type": "inject",
+        "z": "6edc01fa21ac87f6",
+        "name": "Test Shift B Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"SHIFTATigger\":40,\"SHIFTBTigger\":true,\"SHIFTC Tigger\":40,\"TargetA\":40,\"TargetB\":40,\"TargetC\":40,\"ActualA\":40,\"ActualB\":40,\"ActualC\":40,\"ShiftAOK\":40,\"ShiftBOK\":40,\"ShiftCOK\":40,\"ShiftANOK\":40,\"ShiftBNOK\":40,\"ShiftCNOK\":40,\"ShiftACTWithin\":40,\"ShiftBCTWithin\":40,\"ShiftCCTWithin\":40,\"ShiftACTExceeded\":40,\"ShiftBCTExceeded\":40,\"ShiftCCTExceeded\":40,\"ShiftADowntime\":40,\"ShiftBDowntime\":40,\"ShiftCDowntime\":40,\"ShiftAAvailability\":40,\"ShiftBAvailability\":40,\"ShiftCAvailability\":40,\"ShiftAPerformance\":40,\"ShiftBPerformance\":40,\"ShiftCPerformance\":40,\"ShiftAQuality\":40,\"ShiftBQuality\":40,\"ShiftCQuality\":40,\"ShiftBOEE\":40,\"ShiftAPlanProductionCount\":40,\"ShiftCPlanProductionCount\":40,\"SHIFTADeltaProductionCount\":40,\"SHIFTBDeltaProductionCount\":40,\"SHIFTCDeltaProductionCount\":40}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 320,
+        "wires": [
+            [
+                "07c2a8b738263081"
+            ]
+        ]
+    },
+    {
+        "id": "437ad631a1275338",
+        "type": "inject",
+        "z": "6edc01fa21ac87f6",
+        "name": "Test Shift B Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"SHIFTATigger\":50,\"SHIFTBTigger\":false,\"SHIFTC Tigger\":50,\"TargetA\":50,\"TargetB\":50,\"TargetC\":50,\"ActualA\":50,\"ActualB\":50,\"ActualC\":50,\"ShiftAOK\":50,\"ShiftBOK\":50,\"ShiftCOK\":50,\"ShiftANOK\":50,\"ShiftBNOK\":50,\"ShiftCNOK\":50,\"ShiftACTWithin\":50,\"ShiftBCTWithin\":50,\"ShiftCCTWithin\":50,\"ShiftACTExceeded\":50,\"ShiftBCTExceeded\":50,\"ShiftCCTExceeded\":50,\"ShiftADowntime\":50,\"ShiftBDowntime\":50,\"ShiftCDowntime\":50,\"ShiftAAvailability\":50,\"ShiftBAvailability\":50,\"ShiftCAvailability\":50,\"ShiftAPerformance\":50,\"ShiftBPerformance\":50,\"ShiftCPerformance\":50,\"ShiftAQuality\":50,\"ShiftBQuality\":50,\"ShiftCQuality\":50,\"ShiftBOEE\":50,\"ShiftAPlanProductionCount\":50,\"ShiftBPlanProductionCount\":50,\"SHIFTADeltaProductionCount\":50,\"SHIFTBDeltaProductionCount\":50,\"SHIFTCDeltaProductionCount\":50}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "07c2a8b738263081"
+            ]
+        ]
+    },
+    {
+        "id": "610012e418cd3db5",
+        "type": "function",
+        "z": "6edc01fa21ac87f6",
+        "name": " Shift Production",
+        "func": "let previous = flow.get('previousTags_A') || {};\nlet data = msg.payload;\n\n// Update stored state\nflow.set('previousTags_A', data);\n\n\n\nif (data.SHIFTATigger === false && previous.SHIFTATigger===true )\n{\nlet shift = \"\";\nlet params = {\n    Target_Count: 0,\n    Actual_Count: 0,\n    OK_Count: 0,\n    Nok_Count: 0,\n    Within_CT:0,\n    Exceeded_CT:0\n};\n\n    params.Target_Count = data.TargetA || 0;\n    params.Actual_Count = data.ActualA || 0;\n    params.OK_Count = data.ShiftAOK || 0;\n    params.Nok_Count = data.ShiftANOK || 0;\n    params.Within_CT = data.ShiftANOK || 0;\n    params.Exceeded_CT = data.ShiftACTExceeded || 0;\n   shift = \"A\";\n// Output for MSSQL\n    let msgShift = {\n        query: \"sp_USP_Shift_Production\",\n        queryParams: [\n            { name: \"Target_Count\", value: params.Target_Count },\n            { name: \"Actual_Count\", value: params.Actual_Count },\n            { name: \"Ok_Count\", value: params.OK_Count },\n            { name: \"Nok_Count\", value: params.Nok_Count },\n            { name: \"Within_CT\", value: params.Within_CT },\n            { name: \"Exceeded_CT\", value: params.Exceeded_CT },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n   \n    // Return array matching the outputs\n    return [msgShift];\n\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 100,
+        "wires": [
+            [
+                "016b94ae59fac7a4"
+            ]
+        ]
+    },
+    {
+        "id": "c22ea1310a867de7",
+        "type": "function",
+        "z": "6edc01fa21ac87f6",
+        "name": " Shift Production",
+        "func": "let previous = flow.get('previousTags_B') || {};\nlet data = msg.payload;\n\n// Update stored state\nflow.set('previousTags_B', data);\n\n\n\nif (data.SHIFTBTigger === false && previous.SHIFTBTigger===true )\n{\nlet shift = \"\";\nlet params = {\n    Target_Count: 0,\n    Actual_Count: 0,\n    OK_Count: 0,\n    Nok_Count: 0,\n    Within_CT:0,\n    Exceeded_CT:0\n};\n\n    params.Target_Count = data.TargetB || 0;\n    params.Actual_Count = data.ActualB || 0;\n    params.OK_Count = data.ShiftBOK || 0;\n    params.Nok_Count = data.ShiftBNOK || 0;\n    params.Within_CT = data.ShiftBNOK || 0;\n    params.Exceeded_CT = data.ShiftBCTExceeded || 0;\n   shift = \"B\";\n// Output for MSSQL\n    let msgShift = {\n        query: \"sp_USP_Shift_Production\",\n        queryParams: [\n            { name: \"Target_Count\", value: params.Target_Count },\n            { name: \"Actual_Count\", value: params.Actual_Count },\n            { name: \"Ok_Count\", value: params.OK_Count },\n            { name: \"Nok_Count\", value: params.Nok_Count },\n            { name: \"Within_CT\", value: params.Within_CT },\n            { name: \"Exceeded_CT\", value: params.Exceeded_CT },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n   \n    // Return array matching the outputs\n    return [msgShift];\n\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "016b94ae59fac7a4"
+            ]
+        ]
+    },
+    {
+        "id": "fff96511da873915",
+        "type": "function",
+        "z": "6edc01fa21ac87f6",
+        "name": " Shift Production",
+        "func": "let previous = flow.get('previousTags_C') || {};\nlet data = msg.payload;\n\n// Update stored state\nflow.set('previousTags_C', data);\n\n\n\nif (data.SHIFTCTigger === false && previous.SHIFTCTigger === true) {\n    let shift = \"\";\n    let params = {\n        Target_Count: 0,\n        Actual_Count: 0,\n        OK_Count: 0,\n        Nok_Count: 0,\n        Within_CT: 0,\n        Exceeded_CT: 0\n    };\n\n    params.Target_Count = data.TargetC || 0;\n    params.Actual_Count = data.ActualC || 0;\n    params.OK_Count = data.ShiftCOK || 0;\n    params.Nok_Count = data.ShiftCNOK || 0;\n    params.Within_CT = data.ShiftCNOK || 0;\n    params.Exceeded_CT = data.ShiftCCTExceeded || 0;\n    shift = \"C\";\n    // Output for MSSQL\n    let msgShift = {\n        query: \"sp_USP_Shift_Production\",\n        queryParams: [\n            { name: \"Target_Count\", value: params.Target_Count },\n            { name: \"Actual_Count\", value: params.Actual_Count },\n            { name: \"Ok_Count\", value: params.OK_Count },\n            { name: \"Nok_Count\", value: params.Nok_Count },\n            { name: \"Within_CT\", value: params.Within_CT },\n            { name: \"Exceeded_CT\", value: params.Exceeded_CT },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n\n    // Return array matching the outputs\n    return [msgShift];\n\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "016b94ae59fac7a4"
+            ]
+        ]
+    },
+    {
+        "id": "016b94ae59fac7a4",
+        "type": "MSSQL",
+        "z": "6edc01fa21ac87f6",
+        "mssqlCN": "acbb847b231a5a08",
+        "name": "MSSQL Shift Production Oee",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "",
+        "modeOpt": "",
+        "modeOptType": "execute",
+        "queryOpt": "query",
+        "queryOptType": "msg",
+        "paramsOpt": "queryParams",
+        "paramsOptType": "msg",
+        "rows": "rows",
+        "rowsType": "msg",
+        "parseMustache": true,
+        "params": [],
+        "x": 880,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0dc1dc7b59b7f34",
+        "type": "function",
+        "z": "6edc01fa21ac87f6",
+        "name": "OEE",
+        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTATigger==false)\n{\nshift='A'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"BreakDown\", value: data.ShiftADowntime },\n            { name: \"Availability\", value: data.ShiftAAvailability },\n            { name: \"Performance\", value: data.ShiftAPerformance },\n            { name: \"Quality\", value: data.ShiftAQuality }, \n            { name: \"OEE\", value: data.ShiftAOEE },\n            { name: \"PlanProduction\", value: data.ShiftAPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTADeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "016b94ae59fac7a4"
+            ]
+        ]
+    },
+    {
+        "id": "232a35242d581c81",
+        "type": "function",
+        "z": "6edc01fa21ac87f6",
+        "name": "OEE",
+        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTBTigger==false)\n{\nshift='B'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"BreakDown\", value: data.ShiftBDowntime },\n            { name: \"Availability\", value: data.ShiftBAvailability },\n            { name: \"Performance\", value: data.ShiftBPerformance },\n            { name: \"Quality\", value: data.ShiftBQuality }, \n            { name: \"OEE\", value: data.ShiftBOEE },\n            { name: \"PlanProduction\", value: data.ShiftBPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTBDeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "016b94ae59fac7a4"
+            ]
+        ]
+    },
+    {
+        "id": "ea6442ac02d781c6",
+        "type": "function",
+        "z": "6edc01fa21ac87f6",
+        "name": "OEE",
+        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTCTigger==false)\n{\nshift='C'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"BreakDown\", value: data.ShiftCDowntime },\n            { name: \"Availability\", value: data.ShiftCAvailability },\n            { name: \"Performance\", value: data.ShiftCPerformance },\n            { name: \"Quality\", value: data.ShiftCQuality }, \n            { name: \"OEE\", value: data.ShiftCOEE },\n            { name: \"PlanProduction\", value: data.ShiftCPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTCDeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 300,
+        "wires": [
+            [
+                "016b94ae59fac7a4"
+            ]
+        ]
+    },
+    {
+        "id": "9587076f7652b0ef",
+        "type": "debug",
+        "z": "6edc01fa21ac87f6",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 220,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "2ca16fdbefe3a38b",
+        "type": "inject",
+        "z": "46f403bb7a792c20",
+        "name": "Inject Cabin Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "{\"CabinNo\":1,\"StartDate\":\"2025-10-09T14:00:00\",\"EndDate\":\"2025-10-09T14:10:00\",\"CycleTime\":600}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "90c5f0a8cda4e98e"
+            ]
+        ]
+    },
+    {
+        "id": "1456a8d70c6f1e1a",
+        "type": "function",
+        "z": "46f403bb7a792c20",
+        "name": "Cycle Time",
+        "func": "let previous = flow.get('previousTags_CT') || {};\nlet data = msg.payload;\n\n// node.warn(data.CabinNo);\n// node.warn(previous.CabinNo);\n  if (data.CabinNo !== previous.CabinNo) {\n  \n    // Prepare SQL data\n    let sqlMsg = {\n        payload: \"USP_Insert_Update_Cabin_Cycle\",\n        queryParams: [\n            {   name: \"CabinNo\", value: data.CabinNo },\n            {   name: \"StartDate\", value: data.StartDate },\n            {   name: \"EndDate\", value: data.EndDate },\n            {   name: \"CycleTime\", value: data.CycleTime },\n            {   name: \"TimeStamp\", value:new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    flow.set('previousTags_CT', data);\n\n\n    return sqlMsg;  // Only return when value changed\n }\n\nreturn null;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "983ec0a6064f6421"
+            ]
+        ]
+    },
+    {
+        "id": "52bc9b5a6d6b3b6e",
+        "type": "s7 in",
+        "z": "46f403bb7a792c20",
+        "endpoint": "17140f0e34a733c2",
+        "mode": "all",
+        "variable": "",
+        "diff": true,
+        "name": "Cycle Time",
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "90c5f0a8cda4e98e"
+            ]
+        ]
+    },
+    {
+        "id": "90c5f0a8cda4e98e",
+        "type": "rbe",
+        "z": "46f403bb7a792c20",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload.CabinNo",
+        "topi": "topic",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "1456a8d70c6f1e1a"
+            ]
+        ]
+    },
+    {
+        "id": "dab7b22e4dff44d4",
+        "type": "inject",
+        "z": "46f403bb7a792c20",
+        "name": "Inject Cabin Data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "{\"CabinNo\":2,\"StartDate\":\"2025-10-09T14:20:00\",\"EndDate\":\"2025-10-09T14:30:00\",\"CycleTime\":600}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "90c5f0a8cda4e98e"
+            ]
+        ]
+    },
+    {
+        "id": "983ec0a6064f6421",
+        "type": "MSSQL",
+        "z": "46f403bb7a792c20",
+        "mssqlCN": "c2e588bfe47427bd",
+        "name": "MSSQL Cycle Time",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "",
+        "modeOpt": "",
+        "modeOptType": "execute",
+        "queryOpt": "payload",
+        "queryOptType": "msg",
+        "paramsOpt": "queryParams",
+        "paramsOptType": "msg",
+        "rows": "rows",
+        "rowsType": "msg",
+        "parseMustache": true,
+        "params": [],
+        "x": 750,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcb29b250cf27c02",
+        "type": "s7 in",
+        "z": "9222b9b850138625",
+        "endpoint": "6d97500974b53d2f",
+        "mode": "all",
+        "variable": "01",
+        "diff": true,
+        "name": "Hourly Production",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "fa11bfa2d517bf84"
+            ]
+        ]
+    },
+    {
+        "id": "fa11bfa2d517bf84",
+        "type": "function",
+        "z": "9222b9b850138625",
+        "name": "Hourly Production",
+        "func": "let previous = flow.get('previousTags_HP') || {};\nlet current = msg.payload;\nlet changed = [];\n\n// Detect changed values\nfor (let tag in current) {\n    if (current[tag] !== previous[tag]) {\n        changed.push({\n            name: tag,\n            value: current[tag]\n        });\n    }\n}\n\n// Save current values for next time\nflow.set('previousTags_HP', current);\n\n\nlet msgs = [];\nif (changed.length > 0) {\n    let now = new Date().toISOString();\n  \n    for (let i = 0; i < changed.length; i++) {\n        let c = changed[i];\n         \n            msgs.push({\n                payload: \"SP_Insert_HourlyProduction\",\n                queryParams: [\n                    { name: \"Name\", value: c.name },\n                    { name: \"Production_Count\", value: c.value },\n                    { name: \"Timestamp\", value: now }\n                ],\n                queryMode: \"execute\"\n            });\n     \n    }\n\n    return [msgs];\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": "120",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 220,
+        "wires": [
+            [
+                "cee4122ab4ff3e7b"
+            ]
+        ]
+    },
+    {
+        "id": "cee4122ab4ff3e7b",
+        "type": "MSSQL",
+        "z": "9222b9b850138625",
+        "mssqlCN": "d7e919c558b41a47",
+        "name": "MSSQL Hourly",
+        "outField": "payload",
+        "returnType": "0",
+        "throwErrors": "1",
+        "query": "",
+        "modeOpt": "",
+        "modeOptType": "execute",
+        "queryOpt": "payload",
+        "queryOptType": "msg",
+        "paramsOpt": "queryParams",
+        "paramsOptType": "msg",
+        "rows": "rows",
+        "rowsType": "msg",
+        "parseMustache": true,
+        "params": [],
+        "x": 600,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ffa55d7a9acf533",
+        "type": "inject",
+        "z": "9222b9b850138625",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"04:00-05:00\":10}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "fa11bfa2d517bf84"
+            ]
+        ]
+    },
+    {
+        "id": "d0c46ea66db52116",
+        "type": "inject",
+        "z": "9222b9b850138625",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"10:00-11:00\":\"50\",\"11:00-12:00\":\"50\"}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "fa11bfa2d517bf84"
+            ]
+        ]
+    },
+    {
+        "id": "45fd565cb410c7c9",
+        "type": "debug",
+        "z": "b97632a1efdf4fa6",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "91c9e2d0a498f335",
+        "type": "function",
+        "z": "b97632a1efdf4fa6",
+        "name": "function 5",
+        "func": "let moment = global.get('moment');\n\n// Convert UTC to IST\nlet now = moment.utc(new Date()).tz(\"Asia/Kolkata\");\nnode.warn(now.format(\"YYYY-MM-DD HH:mm:ss\"))\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 160,
+        "wires": [
+            [
+                "45fd565cb410c7c9"
+            ]
+        ]
+    },
+    {
+        "id": "d40bc7091d11d8ec",
+        "type": "inject",
+        "z": "b97632a1efdf4fa6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "91c9e2d0a498f335"
+            ]
         ]
     }
 ]
