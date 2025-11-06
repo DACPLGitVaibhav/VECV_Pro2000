@@ -4924,6 +4924,222 @@
             {
                 "addr": "DB126,X0.5",
                 "name": "ML40_175"
+            },
+            {
+                "addr": "DB104,X0.0",
+                "name": "PROFINET_1"
+            },
+            {
+                "addr": "DB104,X0.1",
+                "name": "PROFINET_2"
+            },
+            {
+                "addr": "DB104,X0.2",
+                "name": "PROFINET_3"
+            },
+            {
+                "addr": "DB104,X0.3",
+                "name": "PROFINET_4"
+            },
+            {
+                "addr": "DB104,X0.4",
+                "name": "PROFINET_5"
+            },
+            {
+                "addr": "DB104,X0.5",
+                "name": "PROFINET_6"
+            },
+            {
+                "addr": "DB104,X0.6",
+                "name": "PROFINET_7"
+            },
+            {
+                "addr": "DB104,X0.7",
+                "name": "PROFINET_8"
+            },
+            {
+                "addr": "DB104,X1.0",
+                "name": "PROFINET_9"
+            },
+            {
+                "addr": "DB104,X1.1",
+                "name": "PROFINET_10"
+            },
+            {
+                "addr": "DB104,X1.2",
+                "name": "PROFINET_11"
+            },
+            {
+                "addr": "DB104,X1.3",
+                "name": "PROFINET_12"
+            },
+            {
+                "addr": "DB104,X1.4",
+                "name": "PROFINET_13"
+            },
+            {
+                "addr": "DB104,X1.5",
+                "name": "PROFINET_14"
+            },
+            {
+                "addr": "DB104,X1.6",
+                "name": "PROFINET_15"
+            },
+            {
+                "addr": "DB104,X1.7",
+                "name": "PROFINET_16"
+            },
+            {
+                "addr": "DB104,X2.0",
+                "name": "PROFINET_17"
+            },
+            {
+                "addr": "DB104,X2.1",
+                "name": "PROFINET_18"
+            },
+            {
+                "addr": "DB104,X2.2",
+                "name": "PROFINET_19"
+            },
+            {
+                "addr": "DB104,X2.3",
+                "name": "PROFINET_20"
+            },
+            {
+                "addr": "DB104,X2.4",
+                "name": "PROFINET_21"
+            },
+            {
+                "addr": "DB104,X2.5",
+                "name": "PROFINET_22"
+            },
+            {
+                "addr": "DB104,X2.6",
+                "name": "PROFINET_23"
+            },
+            {
+                "addr": "DB104,X2.7",
+                "name": "PROFINET_24"
+            },
+            {
+                "addr": "DB104,X3.0",
+                "name": "PROFINET_25"
+            },
+            {
+                "addr": "DB104,X3.1",
+                "name": "PROFINET_26"
+            },
+            {
+                "addr": "DB104,X3.2",
+                "name": "PROFINET_27"
+            },
+            {
+                "addr": "DB104,X3.3",
+                "name": "PROFINET_28"
+            },
+            {
+                "addr": "DB104,X3.4",
+                "name": "PROFINET_29"
+            },
+            {
+                "addr": "DB104,X3.5",
+                "name": "PROFINET_30"
+            },
+            {
+                "addr": "DB104,X3.6",
+                "name": "PROFINET_31"
+            },
+            {
+                "addr": "DB104,X3.7",
+                "name": "PROFINET_32"
+            },
+            {
+                "addr": "DB104,X4.0",
+                "name": "PROFINET_33"
+            },
+            {
+                "addr": "DB104,X4.1",
+                "name": "PROFINET_34"
+            },
+            {
+                "addr": "DB104,X4.2",
+                "name": "PROFINET_35"
+            },
+            {
+                "addr": "DB104,X4.3",
+                "name": "PROFINET_36"
+            },
+            {
+                "addr": "DB104,X4.4",
+                "name": "PROFINET_37"
+            },
+            {
+                "addr": "DB104,X4.5",
+                "name": "PROFINET_38"
+            },
+            {
+                "addr": "DB104,X4.6",
+                "name": "PROFINET_39"
+            },
+            {
+                "addr": "DB104,X4.7",
+                "name": "PROFINET_40"
+            },
+            {
+                "addr": "DB104,X5.0",
+                "name": "PROFINET_41"
+            },
+            {
+                "addr": "DB104,X5.1",
+                "name": "PROFINET_42"
+            },
+            {
+                "addr": "DB104,X5.2",
+                "name": "PROFINET_43"
+            },
+            {
+                "addr": "DB104,X5.3",
+                "name": "PROFINET_44"
+            },
+            {
+                "addr": "DB104,X5.4",
+                "name": "PROFINET_45"
+            },
+            {
+                "addr": "DB104,X5.5",
+                "name": "PROFINET_46"
+            },
+            {
+                "addr": "DB104,X5.6",
+                "name": "PROFINET_47"
+            },
+            {
+                "addr": "DB104,X5.7",
+                "name": "PROFINET_48"
+            },
+            {
+                "addr": "DB104,X6.0",
+                "name": "PROFINET_49"
+            },
+            {
+                "addr": "DB104,X6.1",
+                "name": "PROFINET_50"
+            },
+            {
+                "addr": "DB104,X6.2",
+                "name": "PROFINET_51"
+            },
+            {
+                "addr": "DB104,X6.3",
+                "name": "PROFINET_52"
+            },
+            {
+                "addr": "DB104,X6.4",
+                "name": "PROFINET_53"
+            },
+            {
+                "addr": "DB104,X6.5",
+                "name": "PROFINET_54"
             }
         ]
     },
