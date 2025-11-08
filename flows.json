@@ -5184,132 +5184,84 @@
         "name": "ATC Collision",
         "vartable": [
             {
-                "addr": "DB428,X130.0",
-                "name": "01_Collision"
+                "addr": "DB627,X0.7",
+                "name": "1_Timer"
             },
             {
-                "addr": "DB428,X130.1",
-                "name": "02_Collision"
+                "addr": "DB627,X4.5",
+                "name": "2_Timer"
             },
             {
-                "addr": "DB428,X130.2",
-                "name": "03_Collision"
+                "addr": "DB627,X7.7",
+                "name": "3_Timer"
             },
             {
-                "addr": "DB428,X130.3",
-                "name": "04_Collision"
+                "addr": "DB627,X11.5",
+                "name": "4_Timer"
             },
             {
-                "addr": "DB428,X130.4",
-                "name": "05_Collision"
+                "addr": "DB51,X1.0",
+                "name": "5_Timer"
             },
             {
-                "addr": "DB428,X130.5",
-                "name": "06_Collision"
+                "addr": "DB51,X0.7",
+                "name": "5_Atc"
             },
             {
-                "addr": "DB428,X130.6",
-                "name": "07_Collision"
+                "addr": "DB52,X1.0",
+                "name": "6_Timer"
             },
             {
-                "addr": "DB428,X130.7",
-                "name": "08_Collision"
+                "addr": "DB52,X0.7",
+                "name": "6_Atc"
             },
             {
-                "addr": "DB428,X140.0",
-                "name": "09_Collision"
+                "addr": "DB53,X1.0",
+                "name": "7_Timer"
             },
             {
-                "addr": "DB428,X140.1",
-                "name": "10_Collision"
+                "addr": "DB53,X0.7",
+                "name": "7_Atc"
             },
             {
-                "addr": "DB428,X140.2",
-                "name": "11_Collision"
+                "addr": "DB54,X1.0",
+                "name": "8_Timer"
             },
             {
-                "addr": "DB428,X140.3",
-                "name": "12_Collision"
+                "addr": "DB54,X1.1",
+                "name": "8_Atc"
             },
             {
-                "addr": "DB428,X140.4",
-                "name": "13_Collision"
+                "addr": "DB55,X1.0",
+                "name": "9_Timer"
             },
             {
-                "addr": "DB428,X140.5",
-                "name": "14_Collision"
+                "addr": "DB55,X0.7",
+                "name": "9_Atc"
             },
             {
-                "addr": "DB428,X140.6",
-                "name": "15_Collision"
+                "addr": "DB56,X11.7",
+                "name": "10_Timer"
             },
             {
-                "addr": "DB428,X140.7",
-                "name": "16_Collision"
+                "addr": "DB56,X12.0",
+                "name": "10_Atc"
             },
             {
-                "addr": "DB428,X120.0",
-                "name": "01_AtcIntruption"
+                "addr": "DB529,X0.7",
+                "name": "11_Timer"
             },
             {
-                "addr": "DB428,X120.1",
-                "name": "02_AtcIntruption"
+                "addr": "DB529,X4.5",
+                "name": "12_Timer"
             },
             {
-                "addr": "DB428,X120.2",
-                "name": "03_AtcIntruption"
+                "addr": "DB529,X8.3",
+                "name": "13_Timer"
             },
             {
-                "addr": "DB428,X120.3",
-                "name": "04_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X120.4",
-                "name": "05_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X120.5",
-                "name": "06_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X120.6",
-                "name": "07_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X120.7",
-                "name": "08_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X121.0",
-                "name": "09_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X121.1",
-                "name": "10_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X121.2",
-                "name": "11_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X121.3",
-                "name": "12_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X121.4",
-                "name": "13_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X121.5",
-                "name": "14_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X121.6",
-                "name": "15_AtcIntruption"
-            },
-            {
-                "addr": "DB428,X121.7",
-                "name": "16_AtcIntruption"
+                "addr": "DB529,X12.1",
+                "name": "14_Timer"
             }
         ]
     },
@@ -7101,11 +7053,11 @@
             },
             {
                 "addr": "DB374,X12.3",
-                "name": "ML30_11_Active"
+                "name": "ML40_11_Active"
             },
             {
                 "addr": "DB363,X12.3",
-                "name": "ML30_12_Active"
+                "name": "ML40_12_Active"
             },
             {
                 "addr": "DB361,X12.3",
@@ -7157,11 +7109,11 @@
             },
             {
                 "addr": "DB374,X9.4",
-                "name": "ML30_11_Idle"
+                "name": "ML40_11_Idle"
             },
             {
                 "addr": "DB363,X9.4",
-                "name": "ML30_12_Idle"
+                "name": "ML40_12_Idle"
             },
             {
                 "addr": "DB361,X9.4",
@@ -7172,115 +7124,59 @@
                 "name": "ML40_14_Idle"
             },
             {
-                "addr": "DB317,X46.2",
-                "name": "ML10_1_Breakdown"
-            },
-            {
-                "addr": "DB299,X46.2",
-                "name": "ML10_2_Breakdown"
-            },
-            {
-                "addr": "DB168,X46.2",
-                "name": "ML10_3_Breakdown"
-            },
-            {
-                "addr": "DB300,X46.2",
-                "name": "ML10_4_Breakdown"
-            },
-            {
-                "addr": "DB3,X46.2",
-                "name": "ML20_5_Breakdown"
-            },
-            {
-                "addr": "DB5,X46.2",
-                "name": "ML20_6_Breakdown"
-            },
-            {
-                "addr": "DB7,X46.2",
-                "name": "ML20_7_Breakdown"
-            },
-            {
-                "addr": "DB9,X46.2",
-                "name": "ML20_8_Breakdown"
-            },
-            {
-                "addr": "DB11,X46.2",
-                "name": "ML30_9_Breakdown"
-            },
-            {
-                "addr": "DB13,X46.2",
-                "name": "ML30_10_Breakdown"
-            },
-            {
-                "addr": "DB374,X46.2",
-                "name": "ML30_11_Breakdown"
-            },
-            {
-                "addr": "DB363,X46.2",
-                "name": "ML30_12_Breakdown"
-            },
-            {
-                "addr": "DB361,X46.2",
-                "name": "ML40_13_Breakdown"
-            },
-            {
-                "addr": "DB373,X46.2",
-                "name": "ML40_14_Breakdown"
-            },
-            {
-                "addr": "DB317,X46.3",
+                "addr": "DB317,X22.1",
                 "name": "ML10_1_Battery"
             },
             {
-                "addr": "DB299,X46.3",
+                "addr": "DB299,X22.1",
                 "name": "ML10_2_Battery"
             },
             {
-                "addr": "DB168,X46.3",
+                "addr": "DB168,X22.1",
                 "name": "ML10_3_Battery"
             },
             {
-                "addr": "DB300,X46.3",
+                "addr": "DB300,X22.1",
                 "name": "ML10_4_Battery"
             },
             {
-                "addr": "DB3,X46.3",
+                "addr": "DB3,X22.1",
                 "name": "ML20_5_Battery"
             },
             {
-                "addr": "DB5,X46.3",
+                "addr": "DB5,X22.1",
                 "name": "ML20_6_Battery"
             },
             {
-                "addr": "DB7,X46.3",
+                "addr": "DB7,X22.1",
                 "name": "ML20_7_Battery"
             },
             {
-                "addr": "DB9,X46.3",
+                "addr": "DB9,X22.1",
                 "name": "ML20_8_Battery"
             },
             {
-                "addr": "DB11,X46.3",
+                "addr": "DB11,X22.1",
                 "name": "ML30_9_Battery"
             },
             {
-                "addr": "DB13,X46.3",
+                "addr": "DB13,X22.1",
                 "name": "ML30_10_Battery"
             },
             {
-                "addr": "DB374,X46.3",
-                "name": "ML30_11_Battery"
+                "addr": "DB374,X22.1",
+                "name": "ML40_11_Battery"
             },
             {
-                "addr": "DB363,X46.3",
-                "name": "ML30_12_Battery"
+                "addr": "DB363,X22.1",
+                "name": "ML40_12_Battery"
             },
             {
-                "addr": "DB361,X46.3",
+                "addr": "DB361,X22.1",
                 "name": "ML40_13_Battery"
             },
             {
-                "addr": "DB373,X46.3",
+                "addr": "DB373,X22.1",
                 "name": "ML40_14_Battery"
             }
         ]
@@ -7590,80 +7486,76 @@
         "name": "Tip Change Count",
         "vartable": [
             {
-                "addr": "DB428,I132",
+                "addr": "DB19,I292",
                 "name": "1_G1"
             },
             {
-                "addr": "DB428,I134",
+                "addr": "DB19,I294",
                 "name": "2_G1"
             },
             {
-                "addr": "DB428,I136",
+                "addr": "DB19,I296",
                 "name": "3_G1"
             },
             {
-                "addr": "DB428,I138",
+                "addr": "DB19,I298",
                 "name": "4_G1"
             },
             {
-                "addr": "DB428,I140",
+                "addr": "DB19,I300",
                 "name": "5_G1"
             },
             {
-                "addr": "DB428,I142",
+                "addr": "DB19,I302",
+                "name": "5_G2"
+            },
+            {
+                "addr": "DB19,I304",
                 "name": "6_G1"
             },
             {
-                "addr": "DB428,I144",
+                "addr": "DB19,I306",
+                "name": "6_G2"
+            },
+            {
+                "addr": "DB19,I308",
                 "name": "7_G1"
             },
             {
-                "addr": "DB428,I146",
+                "addr": "DB19,I310",
                 "name": "7_G2"
             },
             {
-                "addr": "DB428,I148",
-                "name": "7_G3"
-            },
-            {
-                "addr": "DB428,I150",
+                "addr": "DB19,I312",
                 "name": "8_G1"
             },
             {
-                "addr": "DB428,I152",
+                "addr": "DB19,I314",
                 "name": "8_G2"
             },
             {
-                "addr": "DB428,I154",
-                "name": "8_G3"
-            },
-            {
-                "addr": "DB428,I156",
+                "addr": "DB19,I316",
                 "name": "9_G1"
             },
             {
-                "addr": "DB428,I158",
+                "addr": "DB19,I318",
                 "name": "10_G1"
             },
             {
-                "addr": "DB428,I160",
+                "addr": "DB19,I320",
                 "name": "11_G1"
             },
             {
-                "addr": "DB428,I162",
+                "addr": "DB19,I322",
                 "name": "12_G1"
             },
             {
-                "addr": "DB428,I164",
+                "addr": "DB19,I324",
                 "name": "13_G1"
             },
             {
-                "addr": "DB428,I166",
+                "addr": "DB19,I326",
                 "name": "14_G1"
-            },
-            {
-                "addr": "DB428,I168",
-                "name": "15_G1"
             }
         ]
     },
