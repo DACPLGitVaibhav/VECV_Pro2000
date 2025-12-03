@@ -11523,6 +11523,62 @@
             {
                 "addr": "DB373,X22.1",
                 "name": "ML40_14_Battery"
+            },
+            {
+                "addr": "DB176,X0.0",
+                "name": "ML10_1_Breakdown"
+            },
+            {
+                "addr": "DB176,X0.1",
+                "name": "ML10_2_Breakdown"
+            },
+            {
+                "addr": "DB176,X0.2",
+                "name": "ML10_3_Breakdown"
+            },
+            {
+                "addr": "DB176,X0.3",
+                "name": "ML10_4_Breakdown"
+            },
+            {
+                "addr": "DB176,X0.4",
+                "name": "ML20_5_Breakdown"
+            },
+            {
+                "addr": "DB176,X0.5",
+                "name": "ML20_6_Breakdown"
+            },
+            {
+                "addr": "DB176,X0.6",
+                "name": "ML20_7_Breakdown"
+            },
+            {
+                "addr": "DB176,X0.7",
+                "name": "ML20_8_Breakdown"
+            },
+            {
+                "addr": "DB176,X1.0",
+                "name": "ML30_9_Breakdown"
+            },
+            {
+                "addr": "DB176,X1.1",
+                "name": "ML30_10_Breakdown"
+            },
+            {
+                "addr": "DB176,X1.2",
+                "name": "ML40_11_Breakdown"
+            },
+            {
+                "addr": "DB176,X1.3",
+                "name": "ML40_12_Breakdown"
+            },
+            {
+                "addr": "DB176,X1.4",
+                "name": "ML40_13_Breakdown"
+            },
+            {
+                "addr": "DB176,X1.5",
+                "name": "ML40_14_Breakdown"
             }
         ]
     },
