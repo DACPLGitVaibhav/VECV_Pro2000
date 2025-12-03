@@ -11645,6 +11645,14 @@
             {
                 "addr": "DB12,X9.4",
                 "name": "RF_16_Idle"
+            },
+            {
+                "addr": "DB54,X0.0",
+                "name": "RF_15_Breakdown"
+            },
+            {
+                "addr": "DB54,X0.1",
+                "name": "RF_16_Breakdown"
             }
         ]
     },
@@ -11679,6 +11687,10 @@
             {
                 "addr": "DB13,X22.1",
                 "name": "HM_17_Battery"
+            },
+            {
+                "addr": "DB14,X0.0",
+                "name": "HM_17_Breakdown"
             }
         ]
     },
