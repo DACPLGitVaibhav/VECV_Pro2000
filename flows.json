@@ -5192,296 +5192,316 @@
         "name": "Line Layout",
         "vartable": [
             {
-                "addr": "DB428,X170.0",
-                "name": "SafetyGate1"
+                "addr": "DB170,X0.0",
+                "name": "SeftyGate_1"
             },
             {
-                "addr": "DB428,X170.1",
-                "name": "SafetyGate2"
+                "addr": "DB627,X14.4",
+                "name": "SeftyGate_2_P1"
             },
             {
-                "addr": "DB428,X170.2",
-                "name": "SafetyGate3"
+                "addr": "DB627,X15.2",
+                "name": "SeftyGate_2_P2"
             },
             {
-                "addr": "DB428,X170.3",
-                "name": "SafetyGate4"
+                "addr": "DB627,X14.5",
+                "name": "SeftyGate_3_P1"
             },
             {
-                "addr": "DB428,X170.4",
-                "name": "SafetyGate5"
+                "addr": "DB627,X15.3",
+                "name": "SeftyGate_3_P2"
             },
             {
-                "addr": "DB428,X170.5",
-                "name": "SafetyGate6"
+                "addr": "DB139,X0.0",
+                "name": "SeftyGate_4_P1"
             },
             {
-                "addr": "DB428,X170.6",
-                "name": "SafetyGate7"
+                "addr": "DB139,X0.6",
+                "name": "SeftyGate_4_P2"
             },
             {
-                "addr": "DB428,X170.7",
-                "name": "SafetyGate8"
+                "addr": "DB139,X0.1",
+                "name": "SeftyGate_5_P1"
             },
             {
-                "addr": "DB428,X171.0",
-                "name": "SafetyGate9"
+                "addr": "DB139,X0.7",
+                "name": "SeftyGate_5_P2"
             },
             {
-                "addr": "DB428,X171.1",
-                "name": "SafetyGate10"
+                "addr": "DB55,X11.0",
+                "name": "SeftyGate_6_P1"
             },
             {
-                "addr": "DB428,X171.2",
-                "name": "SafetyGate11"
+                "addr": "DB55,X11.6",
+                "name": "SeftyGate_6_P2"
             },
             {
-                "addr": "DB428,X171.3",
-                "name": "LightCurtain1"
+                "addr": "DB55,X10.7",
+                "name": "SeftyGate_7_P1"
             },
             {
-                "addr": "DB428,X171.4",
-                "name": "LightCurtain2"
+                "addr": "DB55,X11.5",
+                "name": "SeftyGate_7_P2"
             },
             {
-                "addr": "DB428,X171.5",
-                "name": "LightCurtain3"
+                "addr": "DB529,X15.6",
+                "name": "SeftyGate_8_P1"
             },
             {
-                "addr": "DB428,X171.6",
-                "name": "LightCurtain4"
+                "addr": "DB529,X15.7",
+                "name": "SeftyGate_8_P2"
             },
             {
-                "addr": "DB428,X171.7",
-                "name": "LightCurtain5"
+                "addr": "DB529,X15.0",
+                "name": "SeftyGate_9_P1"
             },
             {
-                "addr": "DB428,X172.0",
-                "name": "LightCurtain6"
+                "addr": "DB529,X15.1",
+                "name": "SeftyGate_9_P2"
             },
             {
-                "addr": "DB428,X172.1",
-                "name": "LightCurtain7"
+                "addr": "DB170,X0.1",
+                "name": "SeftyGate_10"
             },
             {
-                "addr": "DB428,X172.2",
-                "name": "LightCurtain8"
+                "addr": "DB170,X0.2",
+                "name": "SeftyGate_11"
             },
             {
-                "addr": "DB428,X172.3",
-                "name": "LightCurtain9"
+                "addr": "DB627,X14.6",
+                "name": "SeftyGateEMG_2"
             },
             {
-                "addr": "DB428,X172.4",
-                "name": "LightCurtain10"
+                "addr": "DB627,X14.7",
+                "name": "SeftyGateEMG_3"
             },
             {
-                "addr": "DB428,X172.5",
-                "name": "EMGMLSafetyGate2"
+                "addr": "DB139,X0.3",
+                "name": "SeftyGateEMG_4"
             },
             {
-                "addr": "DB428,X172.6",
-                "name": "EMGMLSafetyGate5"
+                "addr": "DB139,X0.2",
+                "name": "SeftyGateEMG_5"
             },
             {
-                "addr": "DB428,X172.7",
-                "name": "EMGMLSafetyGate7"
+                "addr": "DB55,X11.2",
+                "name": "SeftyGateEMG_6"
             },
             {
-                "addr": "DB428,X173.0",
-                "name": "EMGMLSafetyGate9"
+                "addr": "DB55,X11.1",
+                "name": "SeftyGateEMG_7"
             },
             {
-                "addr": "DB428,X173.1",
-                "name": "EMGMLSafetyGate8"
+                "addr": "DB529,X15.3",
+                "name": "SeftyGateEMG_8"
             },
             {
-                "addr": "DB428,X173.2",
-                "name": "EMGMLSafetyGate4"
+                "addr": "DB529,X15.2",
+                "name": "SeftyGateEMG_9"
             },
             {
-                "addr": "DB428,X173.3",
-                "name": "EMGMLSafetyGate3"
+                "addr": "DB51,X9.6",
+                "name": "RunStand_1"
             },
             {
-                "addr": "DB428,X173.4",
-                "name": "EMGRFSafetyGate1"
+                "addr": "DB54,X10.5",
+                "name": "RunStand_2"
             },
             {
-                "addr": "DB428,X173.5",
-                "name": "EMGMLSafetyGate6"
+                "addr": "DB52,X9.3",
+                "name": "RunStand_3"
             },
             {
-                "addr": "DB428,X173.6",
-                "name": "EMGRFSafetyGate2"
+                "addr": "DB53,X14.3",
+                "name": "RunStand_4"
             },
             {
-                "addr": "DB428,X173.7",
-                "name": "EMGHeamingSafetyGate1"
+                "addr": "DB53,X14.4",
+                "name": "RunStand_5"
             },
             {
-                "addr": "DB428,X174.0",
-                "name": "EMGML20RunStand1"
+                "addr": "DB19,X68.0",
+                "name": "RunStand_6"
             },
             {
-                "addr": "DB428,X174.1",
-                "name": "EMGML20RunStand2"
+                "addr": "DB51,X9.0",
+                "name": "RunStand_EMG_1"
             },
             {
-                "addr": "DB428,X174.2",
-                "name": "EMGML20RunStand3"
+                "addr": "DB54,X10.2",
+                "name": "RunStand_EMG_2"
             },
             {
-                "addr": "DB428,X174.3",
-                "name": "EMGML20RunStand4"
+                "addr": "DB52,X8.7",
+                "name": "RunStand_EMG_3"
             },
             {
-                "addr": "DB428,X174.4",
-                "name": "EMGML20RunStand5"
+                "addr": "DB53,X9.6",
+                "name": "RunStand_EMG_4"
             },
             {
-                "addr": "DB428,X174.5",
-                "name": "EMGRFRunStand1"
+                "addr": "DB53,X9.5",
+                "name": "RunStand_EMG_5"
             },
             {
-                "addr": "DB428,X174.6",
-                "name": "EMHeimingRunStand1"
+                "addr": "DB55,X10.3",
+                "name": "RunStand_EMG_6"
             },
             {
-                "addr": "DB428,X174.7",
-                "name": "EMGML10TopPLC"
+                "addr": "DB51,X9.1",
+                "name": "LC_1"
             },
             {
-                "addr": "DB428,X175.0",
-                "name": "EMGML10BottomPLC"
+                "addr": "DB54,X10.3",
+                "name": "LC_2"
             },
             {
-                "addr": "DB428,X175.1",
-                "name": "EMGMFLTOPENDPLC"
+                "addr": "DB52,X9.0",
+                "name": "LC_3"
             },
             {
-                "addr": "DB428,X175.2",
-                "name": "EMGHeimingPLC"
+                "addr": "DB53,X10.0",
+                "name": "LC_4_ML30_LC2"
             },
             {
-                "addr": "DB428,X175.3",
-                "name": "EMGRFPLC"
+                "addr": "DB54,X10.3",
+                "name": "LC_5"
             },
             {
-                "addr": "DB428,X175.4",
-                "name": "EMGMLENDBottomHMI"
+                "addr": "DB55,X10.4",
+                "name": "LC_6"
             },
             {
-                "addr": "DB428,X175.5",
-                "name": "EMGMLStartBottomHMI"
+                "addr": "DB201,X0.7",
+                "name": "LC_7"
             },
             {
-                "addr": "DB428,X175.6",
-                "name": "EMGMLbottomOPBox01"
+                "addr": "DB170,X0.3",
+                "name": "LC_8"
             },
             {
-                "addr": "DB428,X175.7",
-                "name": "EMGMFLendOP03Panel"
+                "addr": "DB170,X0.4",
+                "name": "LC_9"
             },
             {
-                "addr": "DB428,X176.0",
-                "name": "EMGMLEND"
+                "addr": "DB170,X0.5",
+                "name": "LC_10"
             },
             {
-                "addr": "DB428,X176.1",
-                "name": "EMGMLStart"
+                "addr": "DB170,X0.6",
+                "name": "PLC_ML10_top"
             },
             {
-                "addr": "DB428,X176.2",
-                "name": "EmgMFL10Bottom"
+                "addr": "DB627,X15.4",
+                "name": "PLC_Panel_ML10_Bottom"
             },
             {
-                "addr": "DB428,X176.3",
-                "name": "EmgMFL20Bottom"
+                "addr": "DB201,X42.2",
+                "name": "PLC_ML20_Bottom"
             },
             {
-                "addr": "DB428,X176.4",
-                "name": "EmgMFL30Bottom"
+                "addr": "DB170,X1.3",
+                "name": "PLC_MFL_top"
             },
             {
-                "addr": "DB428,X176.5",
-                "name": "EmgMFL40Bottom"
+                "addr": "DB170,X1.4",
+                "name": "EMG_ML_Start"
             },
             {
-                "addr": "DB428,X176.6",
-                "name": "EmgMFL50Bottom"
+                "addr": "DB170,X1.0",
+                "name": "HMI_EMG_Start"
             },
             {
-                "addr": "DB428,X176.7",
-                "name": "EmgMFL60Bottom"
+                "addr": "DB170,X0.7",
+                "name": "HMI_EMG_END"
             },
             {
-                "addr": "DB428,X177.00",
-                "name": "EmgMFL70Bottom"
+                "addr": "DB170,X1.1",
+                "name": "OP_box01_EMG"
             },
             {
-                "addr": "DB428,X177.1",
-                "name": "EmgMFL80Bottom"
+                "addr": "DB170,X1.2",
+                "name": "OP03_Panel"
             },
             {
-                "addr": "DB428,X177.2",
-                "name": "EmgMFL10Top"
+                "addr": "DB170,X2.5",
+                "name": "MFL_LHS_EMG_10"
             },
             {
-                "addr": "DB428,X177.3",
-                "name": "EmgMFL20Top"
+                "addr": "DB170,X2.6",
+                "name": "MFL_LHS_EMG_20"
             },
             {
-                "addr": "DB428,X177.4",
-                "name": "EmgMFL30Top"
+                "addr": "DB170,X2.7",
+                "name": "MFL_LHS_EMG_30"
             },
             {
-                "addr": "DB428,X177.5",
-                "name": "EmgMFL40Top"
+                "addr": "DB170,X3.0",
+                "name": "MFL_LHS_EMG_40"
             },
             {
-                "addr": "DB428,X177.6",
-                "name": "EmgMFL50Top"
+                "addr": "DB170,X3.1",
+                "name": "MFL_LHS_EMG_50"
             },
             {
-                "addr": "DB428,X177.7",
-                "name": "EmgMFL60Top"
+                "addr": "DB170,X3.2",
+                "name": "MFL_LHS_EMG_60"
             },
             {
-                "addr": "DB428,X178.0",
-                "name": "EmgMFL70Top"
+                "addr": "DB170,X3.3",
+                "name": "MFL_LHS_EMG_70"
             },
             {
-                "addr": "DB428,X178.1",
-                "name": "EmgMFL80Top"
+                "addr": "DB170,X3.4",
+                "name": "MFL_LHS_EMG_80"
             },
             {
-                "addr": "DB428,I180",
-                "name": "1"
+                "addr": "DB170,X1.5",
+                "name": "MFL_RHS_EMG_10"
             },
             {
-                "addr": "DB428,I182",
-                "name": "2"
+                "addr": "DB170,X1.6",
+                "name": "MFL_RHS_EMG_20"
             },
             {
-                "addr": "DB428,I184",
-                "name": "3"
+                "addr": "DB170,X1.7",
+                "name": "MFL_RHS_EMG_30"
             },
             {
-                "addr": "DB428,I186",
-                "name": "4"
+                "addr": "DB170,X2.0",
+                "name": "MFL_RHS_EMG_40"
             },
             {
-                "addr": "DB428,X188.0",
-                "name": "ROOFGATE1"
+                "addr": "DB170,X2.1",
+                "name": "MFL_RHS_EMG_50"
             },
             {
-                "addr": "DB428,X188.1",
-                "name": "ROOFGATE2"
+                "addr": "DB170,X2.2",
+                "name": "MFL_RHS_EMG_60"
             },
             {
-                "addr": "DB428,X188.2",
-                "name": "HEMMINGGATE1"
+                "addr": "DB170,X2.3",
+                "name": "MFL_RHS_EMG_70"
+            },
+            {
+                "addr": "DB170,X2.4",
+                "name": "MFL_RHS_EMG_80"
+            },
+            {
+                "addr": "DB113,X150.0",
+                "name": "ML10_CabinNo"
+            },
+            {
+                "addr": "DB113,X232.0",
+                "name": "ML20_CabinNo"
+            },
+            {
+                "addr": "DB113,X314.0",
+                "name": "ML30_CabinNo"
+            },
+            {
+                "addr": "DB113,X396.0",
+                "name": "ML40_CabinNo"
             }
         ]
     },
@@ -11631,16 +11651,32 @@
                 "name": "1_Timer"
             },
             {
+                "addr": "DB317,X2.2",
+                "name": "1_Collision"
+            },
+            {
                 "addr": "DB627,X4.5",
                 "name": "2_Timer"
+            },
+            {
+                "addr": "DB299,X2.2",
+                "name": "2_Collision"
             },
             {
                 "addr": "DB627,X7.7",
                 "name": "3_Timer"
             },
             {
+                "addr": "DB168,X2.2",
+                "name": "3_Collision"
+            },
+            {
                 "addr": "DB627,X11.5",
                 "name": "4_Timer"
+            },
+            {
+                "addr": "DB300,X2.2",
+                "name": "4_Collision"
             },
             {
                 "addr": "DB51,X1.0",
@@ -11651,12 +11687,20 @@
                 "name": "5_Atc"
             },
             {
+                "addr": "DB3,X2.2",
+                "name": "5_Collision"
+            },
+            {
                 "addr": "DB52,X1.0",
                 "name": "6_Timer"
             },
             {
                 "addr": "DB52,X0.7",
                 "name": "6_Atc"
+            },
+            {
+                "addr": "DB5,X2.2",
+                "name": "6_Collision"
             },
             {
                 "addr": "DB53,X1.0",
@@ -11667,12 +11711,20 @@
                 "name": "7_Atc"
             },
             {
+                "addr": "DB7,X2.2",
+                "name": "7_Collision"
+            },
+            {
                 "addr": "DB54,X1.0",
                 "name": "8_Timer"
             },
             {
                 "addr": "DB54,X1.1",
                 "name": "8_Atc"
+            },
+            {
+                "addr": "DB9,X2.2",
+                "name": "8_Collision"
             },
             {
                 "addr": "DB55,X1.0",
@@ -11683,6 +11735,10 @@
                 "name": "9_Atc"
             },
             {
+                "addr": "DB11,X2.2",
+                "name": "9_Collision"
+            },
+            {
                 "addr": "DB56,X11.7",
                 "name": "10_Timer"
             },
@@ -11691,20 +11747,40 @@
                 "name": "10_Atc"
             },
             {
+                "addr": "DB13,X2.2",
+                "name": "10_Collision"
+            },
+            {
                 "addr": "DB529,X0.7",
                 "name": "11_Timer"
+            },
+            {
+                "addr": "DB374,X2.2",
+                "name": "11_Collision"
             },
             {
                 "addr": "DB529,X4.5",
                 "name": "12_Timer"
             },
             {
+                "addr": "DB363,X2.2",
+                "name": "12_Collision"
+            },
+            {
                 "addr": "DB529,X8.3",
                 "name": "13_Timer"
             },
             {
+                "addr": "DB361,X2.2",
+                "name": "13_Collision"
+            },
+            {
                 "addr": "DB529,X12.1",
                 "name": "14_Timer"
+            },
+            {
+                "addr": "DB373,X2.2",
+                "name": "14_Collision"
             }
         ]
     },
@@ -11763,6 +11839,10 @@
             {
                 "addr": "DB95,X6.5",
                 "name": "16_Atc"
+            },
+            {
+                "addr": "DB5,X2.2",
+                "name": "16_Collision"
             }
         ]
     },
@@ -15491,6 +15571,133 @@
         ]
     },
     {
+        "id": "ad171ed034aab934",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "192.168.0.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": 2,
+        "cycletime": 1000,
+        "timeout": 2000,
+        "name": "Hemming  Event",
+        "vartable": [
+            {
+                "addr": "DB13,X2.2",
+                "name": "17_Collision"
+            }
+        ]
+    },
+    {
+        "id": "ca8915bcf7732866",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "192.168.1.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": 2,
+        "cycletime": 1000,
+        "timeout": 2000,
+        "name": "Line Layout RF",
+        "vartable": [
+            {
+                "addr": "DB201,X43.6",
+                "name": "RF_SeftyGate_1_P1"
+            },
+            {
+                "addr": "DB201,X43.7",
+                "name": "RF_SeftyGate_1_P2"
+            },
+            {
+                "addr": "DB201,X42.4",
+                "name": "RF_SeftyGate_EMG_1"
+            },
+            {
+                "addr": "DB201,X43.1",
+                "name": "RF_RunStand_1"
+            },
+            {
+                "addr": "DB201,X43.3",
+                "name": "RF_RunStand_2"
+            },
+            {
+                "addr": "DB201,X43.0",
+                "name": "RF_RunStand_EMG_1"
+            },
+            {
+                "addr": "DB201,X43.2",
+                "name": "RF_RunStand_EMG_2"
+            },
+            {
+                "addr": "DB201,X43.4",
+                "name": "RF_LC_1"
+            },
+            {
+                "addr": "DB201,X43.5",
+                "name": "RF_LC_2"
+            }
+        ]
+    },
+    {
+        "id": "fb103b876b6c4897",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "192.168.1.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": 2,
+        "cycletime": 1000,
+        "timeout": 2000,
+        "name": "Line Layout Hem",
+        "vartable": [
+            {
+                "addr": "DB201,X0.3",
+                "name": "Hem_SeftyGate_1_P1"
+            },
+            {
+                "addr": "DB201,X1.0",
+                "name": "Hem_SeftyGate_1_P2"
+            },
+            {
+                "addr": "DB201,X0.1",
+                "name": "Hem_SeftyGate_EMG_1"
+            },
+            {
+                "addr": "DB201,X0.6",
+                "name": "Hem_RunStand_1"
+            },
+            {
+                "addr": "DB201,X0.5",
+                "name": "Hem_RunStand_EMG_1"
+            },
+            {
+                "addr": "DB201,X0.4",
+                "name": "PLC_Hemming_Right"
+            }
+        ]
+    },
+    {
         "id": "e2262b3e34402016",
         "type": "s7 in",
         "z": "4130cccc0fa67e06",
@@ -16100,8 +16307,8 @@
         "mode": "all",
         "variable": "",
         "diff": false,
-        "name": "Line Layout",
-        "x": 110,
+        "name": "Line Layout ML",
+        "x": 120,
         "y": 140,
         "wires": [
             [
@@ -16113,7 +16320,7 @@
         "id": "57e98e7c32c850f5",
         "type": "function",
         "z": "9dab2313a2f19c0b",
-        "name": "function 4",
+        "name": "ML Function",
         "func": "let previous = flow.get('previousTags_LL') || {};\nlet current = msg.payload;\nlet changed = [];\n\n// Detect changed values\nfor (let tag in current) {\n    //if (current[tag] !== previous[tag]) {\n        changed.push({\n            name: tag,\n            value: current[tag]\n        });\n   // }\n}\n\n// Save current values for next time\nflow.set('previousTags_LL', current);\n\nlet msgs = [];\nif (changed.length > 0) {\n\n\n    for (let i = 0; i < changed.length; i++) {\n        let c = changed[i];\n         \n            msgs.push({\n                payload: \"SP_Insert_linestatus\",\n                queryParams: [\n                    { name: \"TagName\", value: c.name },\n                    { name: \"Status\", value: c.value },\n                    { name: \"Timestamp\", value: new Date().toISOString() }\n                ],\n                queryMode: \"execute\"\n            });\n       //console.log(msgs);\n    }\n\n    return [msgs];\n} else {\n    return null;\n}\n",
         "outputs": 1,
         "timeout": 0,
@@ -16121,7 +16328,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
+        "x": 410,
         "y": 140,
         "wires": [
             [
@@ -16149,8 +16356,8 @@
         "rowsType": "msg",
         "parseMustache": true,
         "params": [],
-        "x": 620,
-        "y": 140,
+        "x": 680,
+        "y": 200,
         "wires": [
             []
         ]
@@ -16203,10 +16410,84 @@
         "topic": "",
         "payload": "{\"1\":101,\"2\":202,\"3\":303,\"4\":404,\"SafetyGate1\":false,\"SafetyGate2\":false,\"SafetyGate3\":false,\"SafetyGate4\":false,\"SafetyGate5\":false,\"SafetyGate6\":false,\"SafetyGate7\":false,\"SafetyGate8\":false,\"SafetyGate9\":false,\"SafetyGate10\":false,\"SafetyGate11\":false,\"LightCurtain1\":false,\"LightCurtain2\":false,\"LightCurtain3\":false,\"LightCurtain4\":false,\"LightCurtain5\":false,\"LightCurtain6\":false,\"LightCurtain7\":false,\"LightCurtain8\":false,\"LightCurtain9\":false,\"LightCurtain10\":false,\"EMGMLSafetyGate2\":false,\"EMGMLSafetyGate5\":false,\"EMGMLSafetyGate7\":false,\"EMGMLSafetyGate9\":false,\"EMGMLSafetyGate8\":false,\"EMGMLSafetyGate4\":false,\"EMGMLSafetyGate3\":false,\"EMGRFSafetyGate1\":false,\"EMGMLSafetyGate6\":false,\"EMGRFSafetyGate2\":false,\"EMGHeamingSafetyGate1\":false,\"EMGML20RunStand1\":false,\"EMGML20RunStand2\":false,\"EMGML20RunStand3\":false,\"EMGML20RunStand4\":false,\"EMGML20RunStand5\":false,\"EMGRFRunStand1\":false,\"EMHeimingRunStand1\":false,\"EMGML10TopPLC\":false,\"EMGML10BottomPLC\":false,\"EMGMFLTOPENDPLC\":false,\"EMGHeimingPLC\":false,\"EMGRFPLC\":false,\"EMGMLENDBottomHMI\":false,\"EMGMLStartBottomHMI\":false,\"EMGMLbottomOPBox01\":false,\"EMGMFLendOP03Panel\":false,\"EMGMLEND\":false,\"EMGMLStart\":false,\"EmgMFL10Bottom\":false,\"EmgMFL20Bottom\":false,\"EmgMFL30Bottom\":false,\"EmgMFL40Bottom\":false,\"EmgMFL50Bottom\":false,\"EmgMFL60Bottom\":false,\"EmgMFL70Bottom\":false,\"EmgMFL80Bottom\":false,\"EmgMFL10Top\":false,\"EmgMFL20Top\":false,\"EmgMFL30Top\":false,\"EmgMFL40Top\":false,\"EmgMFL50Top\":false,\"EmgMFL60Top\":false,\"EmgMFL70Top\":false,\"EmgMFL80Top\":false,\"ROOFGATE1\":false,\"ROOFGATE2\":false,\"HEMMINGGATE1\":false}",
         "payloadType": "json",
-        "x": 130,
-        "y": 240,
+        "x": 90,
+        "y": 360,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "55d63f588284b421",
+        "type": "function",
+        "z": "9dab2313a2f19c0b",
+        "name": "RF Function",
+        "func": "let previous = flow.get('previousTags_RFLL') || {};\nlet current = msg.payload;\nlet changed = [];\n\n// Detect changed values\nfor (let tag in current) {\n    //if (current[tag] !== previous[tag]) {\n        changed.push({\n            name: tag,\n            value: current[tag]\n        });\n   // }\n}\n\n// Save current values for next time\nflow.set('previousTags_RFLL', current);\n\nlet msgs = [];\nif (changed.length > 0) {\n\n\n    for (let i = 0; i < changed.length; i++) {\n        let c = changed[i];\n         \n            msgs.push({\n                payload: \"SP_Insert_linestatus\",\n                queryParams: [\n                    { name: \"TagName\", value: c.name },\n                    { name: \"Status\", value: c.value },\n                    { name: \"Timestamp\", value: new Date().toISOString() }\n                ],\n                queryMode: \"execute\"\n            });\n       //console.log(msgs);\n    }\n\n    return [msgs];\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "d15a79cae49abac8"
+            ]
+        ]
+    },
+    {
+        "id": "7f805bb1a70c94fd",
+        "type": "function",
+        "z": "9dab2313a2f19c0b",
+        "name": "Hem Function",
+        "func": "let previous = flow.get('previousTags_HMLL') || {};\nlet current = msg.payload;\nlet changed = [];\n\n// Detect changed values\nfor (let tag in current) {\n    //if (current[tag] !== previous[tag]) {\n        changed.push({\n            name: tag,\n            value: current[tag]\n        });\n   // }\n}\n\n// Save current values for next time\nflow.set('previousTags_HMLL', current);\n\nlet msgs = [];\nif (changed.length > 0) {\n\n\n    for (let i = 0; i < changed.length; i++) {\n        let c = changed[i];\n         \n            msgs.push({\n                payload: \"SP_Insert_linestatus\",\n                queryParams: [\n                    { name: \"TagName\", value: c.name },\n                    { name: \"Status\", value: c.value },\n                    { name: \"Timestamp\", value: new Date().toISOString() }\n                ],\n                queryMode: \"execute\"\n            });\n       //console.log(msgs);\n    }\n\n    return [msgs];\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 260,
+        "wires": [
+            [
+                "d15a79cae49abac8"
+            ]
+        ]
+    },
+    {
+        "id": "9bcc9cedac890dc6",
+        "type": "s7 in",
+        "z": "9dab2313a2f19c0b",
+        "endpoint": "ca8915bcf7732866",
+        "mode": "single",
+        "variable": "",
+        "diff": true,
+        "name": "",
+        "x": 120,
+        "y": 200,
+        "wires": [
+            [
+                "55d63f588284b421"
+            ]
+        ]
+    },
+    {
+        "id": "a5fc17526a204b79",
+        "type": "s7 in",
+        "z": "9dab2313a2f19c0b",
+        "endpoint": "fb103b876b6c4897",
+        "mode": "single",
+        "variable": "",
+        "diff": true,
+        "name": "",
+        "x": 120,
+        "y": 260,
+        "wires": [
+            [
+                "7f805bb1a70c94fd"
+            ]
         ]
     },
     {
@@ -17681,12 +17962,10 @@
         "topic": "",
         "payload": "{\"15_Collision\":true}",
         "payloadType": "json",
-        "x": 290,
-        "y": 280,
+        "x": 310,
+        "y": 320,
         "wires": [
-            [
-                "69b87a42033ec52e"
-            ]
+            []
         ]
     },
     {
@@ -17706,12 +17985,10 @@
         "topic": "",
         "payload": "{\"15_Collision\":false}",
         "payloadType": "json",
-        "x": 310,
-        "y": 320,
+        "x": 290,
+        "y": 380,
         "wires": [
-            [
-                "69b87a42033ec52e"
-            ]
+            []
         ]
     },
     {
@@ -17734,8 +18011,8 @@
         "rowsType": "msg",
         "parseMustache": true,
         "params": [],
-        "x": 860,
-        "y": 180,
+        "x": 840,
+        "y": 200,
         "wires": [
             []
         ]
@@ -17771,6 +18048,43 @@
         "libs": [],
         "x": 570,
         "y": 200,
+        "wires": [
+            [
+                "5ad869d0b960bb9e"
+            ]
+        ]
+    },
+    {
+        "id": "3b58ea6a9e5f2de3",
+        "type": "s7 in",
+        "z": "d56e9038cfc4ecfb",
+        "endpoint": "ad171ed034aab934",
+        "mode": "single",
+        "variable": "",
+        "diff": true,
+        "name": "",
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "1c6a542ddb9d5a45"
+            ]
+        ]
+    },
+    {
+        "id": "1c6a542ddb9d5a45",
+        "type": "function",
+        "z": "d56e9038cfc4ecfb",
+        "name": "Hemming_Line_Event",
+        "func": "let previous = flow.get('previousTags_HEvent') || {};\nlet current = msg.payload;\nlet changedToTrue = [];\n\n// Detect tags changed from false (or undefined) to true\nfor (let tag in current) {\n    if (current[tag] === true && previous[tag] !== true) {\n        changedToTrue.push(tag);\n    }\n}\n\n// Update stored state\nflow.set('previousTags_HEvent', current);\n\n// Build SQL procedure calls\n\nlet msgs = [];\n\nfor (let i = 0; i < changedToTrue.length; i++) {\n    const key = changedToTrue[i];\n    const parts = key.split('_');\n\n    if (parts.length === 2) {\n        msgs.push({\n            payload: 'USP_Insert_Atc_TipChange_Collision',\n            queryParams: [\n                { name: \"RobotID\", value: parts[0] },\n                { name: \"EventType\", value: parts[1] },\n                { name: \"TimeStamp\", value: new Date().toISOString() }\n            ],\n            queryMode: \"execute\"\n        });\n    }\n}\n\nreturn msgs.length > 0 ? [msgs] : null;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 260,
         "wires": [
             [
                 "5ad869d0b960bb9e"
