@@ -2932,6 +2932,42 @@
             {
                 "addr": "DB126,X0.5",
                 "name": "ML20_502"
+            },
+            {
+                "addr": "DB139,X0.0",
+                "name": "ML20_503"
+            },
+            {
+                "addr": "DB139,X0.1",
+                "name": "ML20_504"
+            },
+            {
+                "addr": "DB139,X0.2",
+                "name": "ML20_505"
+            },
+            {
+                "addr": "DB139,X0.3",
+                "name": "ML20_506"
+            },
+            {
+                "addr": "DB139,X0.4",
+                "name": "ML20_507"
+            },
+            {
+                "addr": "DB139,X0.5",
+                "name": "ML20_508"
+            },
+            {
+                "addr": "DB139,X0.6",
+                "name": "ML20_509"
+            },
+            {
+                "addr": "DB139,X0.7",
+                "name": "ML20_510"
+            },
+            {
+                "addr": "DB139,X1.0",
+                "name": "ML20_511"
             }
         ]
     },
@@ -4190,6 +4226,10 @@
             {
                 "addr": "DB169,X2.3",
                 "name": "ML30_304"
+            },
+            {
+                "addr": "DB19,X68.0",
+                "name": "ML30_305"
             }
         ]
     },
@@ -5489,19 +5529,19 @@
             },
             {
                 "addr": "DB113,X150.0",
-                "name": "ML10_CabinNo"
+                "name": "1"
             },
             {
                 "addr": "DB113,X232.0",
-                "name": "ML20_CabinNo"
+                "name": "2"
             },
             {
                 "addr": "DB113,X314.0",
-                "name": "ML30_CabinNo"
+                "name": "3"
             },
             {
                 "addr": "DB113,X396.0",
-                "name": "ML40_CabinNo"
+                "name": "4"
             }
         ]
     },
@@ -11635,7 +11675,7 @@
                 "name": "RF_15_Active"
             },
             {
-                "addr": "DB12,X12.3",
+                "addr": "DB5,X12.3",
                 "name": "RF_16_Active"
             },
             {
@@ -11643,7 +11683,7 @@
                 "name": "RF_15_Idle"
             },
             {
-                "addr": "DB12,X9.4",
+                "addr": "DB5,X9.4",
                 "name": "RF_16_Idle"
             },
             {
@@ -11911,6 +11951,10 @@
             {
                 "addr": "DB5,X2.2",
                 "name": "16_Collision"
+            },
+            {
+                "addr": "DB12,X2.2",
+                "name": "15_Collision"
             }
         ]
     },
@@ -16599,13 +16643,13 @@
         "type": "file",
         "z": "502c7cc05ab695d2",
         "name": "",
-        "filename": "D:\\JBM\\Log\\PLC_Status.txt",
+        "filename": "D:\\Pro2000\\Log\\PLC_Status.txt",
         "filenameType": "str",
         "appendNewline": true,
         "createDir": true,
         "overwriteFile": "false",
         "encoding": "none",
-        "x": 740,
+        "x": 750,
         "y": 120,
         "wires": [
             []
