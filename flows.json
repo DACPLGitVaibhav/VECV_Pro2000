@@ -5992,6 +5992,18 @@
                 "name": "ShiftCCTExceeded"
             },
             {
+                "addr": "DB185,DI156",
+                "name": "ShiftAAvailtime"
+            },
+            {
+                "addr": "DB185,DI160",
+                "name": "ShiftBAvailtime"
+            },
+            {
+                "addr": "DB185,DI164",
+                "name": "ShiftCAvailtime"
+            },
+            {
                 "addr": "DB185,DI0",
                 "name": "ShiftADowntime"
             },
@@ -17416,7 +17428,7 @@
         "type": "function",
         "z": "6edc01fa21ac87f6",
         "name": "OEE",
-        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTATigger==false)\n{\nshift='A'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"BreakDown\", value: data.ShiftADowntime },\n            { name: \"Availability\", value: data.ShiftAAvailability },\n            { name: \"Performance\", value: data.ShiftAPerformance },\n            { name: \"Quality\", value: data.ShiftAQuality }, \n            { name: \"OEE\", value: data.ShiftAOEE },\n            { name: \"PlanProduction\", value: data.ShiftAPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTADeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
+        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTATigger==false)\n{\nshift='A'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"AvailableTime\", value: data.ShiftAAvailtime },\n            { name: \"BreakDown\", value: data.ShiftADowntime },\n            { name: \"Availability\", value: data.ShiftAAvailability },\n            { name: \"Performance\", value: data.ShiftAPerformance },\n            { name: \"Quality\", value: data.ShiftAQuality }, \n            { name: \"OEE\", value: data.ShiftAOEE },\n            { name: \"PlanProduction\", value: data.ShiftAPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTADeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17436,7 +17448,7 @@
         "type": "function",
         "z": "6edc01fa21ac87f6",
         "name": "OEE",
-        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTBTigger==false)\n{\nshift='B'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"BreakDown\", value: data.ShiftBDowntime },\n            { name: \"Availability\", value: data.ShiftBAvailability },\n            { name: \"Performance\", value: data.ShiftBPerformance },\n            { name: \"Quality\", value: data.ShiftBQuality }, \n            { name: \"OEE\", value: data.ShiftBOEE },\n            { name: \"PlanProduction\", value: data.ShiftBPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTBDeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
+        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTBTigger==false)\n{\nshift='B'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"AvailableTime\", value: data.ShiftBAvailtime },\n            { name: \"BreakDown\", value: data.ShiftBDowntime },\n            { name: \"Availability\", value: data.ShiftBAvailability },\n            { name: \"Performance\", value: data.ShiftBPerformance },\n            { name: \"Quality\", value: data.ShiftBQuality }, \n            { name: \"OEE\", value: data.ShiftBOEE },\n            { name: \"PlanProduction\", value: data.ShiftBPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTBDeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17456,7 +17468,7 @@
         "type": "function",
         "z": "6edc01fa21ac87f6",
         "name": "OEE",
-        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTCTigger==false)\n{\nshift='C'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"BreakDown\", value: data.ShiftCDowntime },\n            { name: \"Availability\", value: data.ShiftCAvailability },\n            { name: \"Performance\", value: data.ShiftCPerformance },\n            { name: \"Quality\", value: data.ShiftCQuality }, \n            { name: \"OEE\", value: data.ShiftCOEE },\n            { name: \"PlanProduction\", value: data.ShiftCPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTCDeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
+        "func": "let data=msg.payload;\n\nlet shift='';\nif (msg.payload.SHIFTCTigger==false)\n{\nshift='C'\n}\n\nif(shift==\"\")\n{return null}\nelse    {\n    let msgOEE = {\n        query: \"sp_USP_OEE\",\n        queryParams: [\n            { name: \"AvailableTime\", value: data.ShiftCAvailtime },\n            { name: \"BreakDown\", value: data.ShiftCDowntime },\n            { name: \"Availability\", value: data.ShiftCAvailability },\n            { name: \"Performance\", value: data.ShiftCPerformance },\n            { name: \"Quality\", value: data.ShiftCQuality }, \n            { name: \"OEE\", value: data.ShiftCOEE },\n            { name: \"PlanProduction\", value: data.ShiftCPlanProductionCount },\n            { name: \"DeltaProduction\", value: data.SHIFTCDeltaProductionCount },\n            { name: \"Shift\", value: shift },\n            { name: \"TimeStamp\", value: new Date().toISOString() }\n        ],\n        queryMode: \"execute\"\n    };\n\n    // Return array matching the outputs\n    return [msgOEE];\n\n}\n\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
